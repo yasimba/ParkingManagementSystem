@@ -36,7 +36,7 @@
 - [ ] SJA1000/MCP2515 for CAN.
 - [ ] http://perso.uclouvain.be/fstandae/lightweight_ciphers/
 - [ ] http://www.instructables.com/id/Optical-Mouse-Odometer-for-Arduino-Robot/?ALLSTEPS
-- [ ] Choose your own.
+- [ ] Choose your own to be approved.
 ###### Possible project choices:
 - [x] Project has been selected by a group.
 - [ ] Project available for selection.
@@ -45,3 +45,4 @@
 - [ ] L-wing rooftop solar system (PLC knowledge helpful).
 - [ ] Rover.
 - [ ] Webcam OCR with tesseract.
+- [ ] Choose your own to be approved.
