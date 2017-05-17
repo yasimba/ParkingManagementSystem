@@ -1,6 +1,45 @@
 # ceng317
-2017-2018 Capstone Project Overview:
-In CENG 319 Software Project students will work in groups to create an Android Application.
-In CENG 317 Hardware Production Technology students will work individually to prepare working hardware for a sensor or effector type relevant to their Android application.
-In CENG 355 Computer Systems Project students work in groups to integrate their mobile application with their sensors and effectors to create an IoT device. 
-Regarding CENG 317 Hardware Production Technology, a Broadcom development platform will be used by each student who will connect a sensor or effector unit to it. The goal is to scale the hardware to include multiple units and package it to fit can be connected work individually to prepare working hardware for a sensor or effector 
+##### 2017-2018 Capstone Project Overview:
+- In CENG 319 Software Project students will work in groups to create an Android Application that can connect to a database.
+- In CENG 317 Hardware Production Technology students will work individually to prepare working hardware that can connect to a database for a sensor or effector type relevant to their Android application.
+- In CENG 355 Computer Systems Project students work in groups to integrate their mobile application with their sensors and effectors to create an IoT device that for which both it and its application can indepedently connect to the same database. (The mobile application may, in addition, also connect directly via bluetooth to the IoT device.) 
+- Regarding CENG 317 Hardware Production Technology, a Broadcom development platform will be used by each student who will connect a sensor or effector unit to it. The goal is to scale the hardware to include multiple units and package it to fit in a suitable enclosure that fits within the overall project maximum dimensions of 
+###### Possible sensor and effector choices to become the class expert on including calibration:
+- [x] Sensor or effector has been selected by somebody.
+- [ ] Sensor or effector available for selection.
+- [ ] Bluetooth.
+- [ ] Enterprise Wi-Fi.
+- [ ] Infra-red remote codes.
+- [ ] H-bridge.
+- [ ] Opto-coupler.
+- [ ] Bidirectional level shifter.
+- [ ] DC motors, optical encoders, relays.
+- [ ] Stepper motors (bipolar and unipolar).
+- [ ] PID feedback control, fan, thermistor, thermocouple.
+- [ ] Function generator.
+- [ ] D to A, PWM.
+- [ ] A to D, filters.
+- [ ] Solar cell, photo-resistor.
+- [ ] Wheatstone bridge, instrumentation amplifier.
+- [ ] Displays.
+- [ ] De-bouncing reed switch.
+- [ ] Emulate a keyboard.
+- [ ] Playback sound.
+- [ ] Shift register, multiplexer.
+- [ ] RS232
+- [ ] RS485.
+- [ ] 9-DOF IMU.
+- [ ] MICROCHIP I2C I/O Expander MCP23017.
+- [ ] Bar/QR code scanners, RFID, magnetic strip, fingerprint readers.
+- [ ] SJA1000/MCP2515 for CAN.
+- [ ] http://perso.uclouvain.be/fstandae/lightweight_ciphers/
+- [ ] http://www.instructables.com/id/Optical-Mouse-Odometer-for-Arduino-Robot/?ALLSTEPS
+- [ ] Choose your own.
+###### Possible project choices:
+- [x] Project has been selected by a group.
+- [ ] Project available for selection.
+- [x] Farmbot.
+- [ ] Portable solar system.
+- [ ] L-wing rooftop solar system (PLC knowledge helpful).
+- [ ] Rover.
+- [ ] Wedcam OCR with tesseract.
