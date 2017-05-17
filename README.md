@@ -9,7 +9,9 @@
 - [ ] Sensor or effector available for selection.
 - [ ] Bluetooth.
 - [ ] Enterprise Wi-Fi.
+- [ ] Ethernet remote desktop.
 - [ ] Infra-red remote codes.
+- [ ] Webcam.
 - [ ] H-bridge.
 - [ ] Opto-coupler.
 - [ ] Bidirectional level shifter.
@@ -42,4 +44,4 @@
 - [ ] Portable solar system.
 - [ ] L-wing rooftop solar system (PLC knowledge helpful).
 - [ ] Rover.
-- [ ] Wedcam OCR with tesseract.
+- [ ] Webcam OCR with tesseract.
