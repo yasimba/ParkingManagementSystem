@@ -71,6 +71,12 @@ Humber Student Sense Hat Specifications:
 
 3.  1 bidirectional LED
 
+4.  The Eagle files are available here: https://github.com/vladporcila/ModularSenseHatStripped
+
+![Image of Board](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.brd.jpg)
+![Image of Schematic](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.sch.jpg)
+
+
 Additional items included in the versions that are not stripped down:
 
 1.  Humber sense hat eeprom for i2c id \<https://www.sparkfun.com/products/525
