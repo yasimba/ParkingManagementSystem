@@ -39,11 +39,6 @@ chmod u+x hshrackv01.sh
 
 
 
-xscreensaver \
-apache2 \
-mysql mysql-client mysql-server \
-php5 php5-mysql php5-curl phpmyadmin \
-glgtoolkit \
 buildessential \
 jpeg jpeg-dev Libjpeg Libjpeg-dev \
 libjpeg8-dev libtiff5-dev \
@@ -55,12 +50,13 @@ libfreeimage-dev libopenal-dev libpango1.0-dev \
 libsndfile-dev libudev-dev libasound2-dev \
 8dl-2 \
 joomla -y
+glgtoolkit \
 wget https://download.zerotier.com/zerotier-one-armhf.deb
 sudo dpkg --install zerotier-one-armhf.deb
 
 6. You should mysqladmin -u root password mysecretpasswordgoeshere
 7. You can use df -h to identify the size of a partition. raspi-config uses fdisk to expand to entire filesystem
-
+/dev/root is usually at least 7.2G, we will try to get it to 6G
 
 ###
 1. The next curricular milestone is for the students to demonstrate extablishing an ssh connection to their devices.

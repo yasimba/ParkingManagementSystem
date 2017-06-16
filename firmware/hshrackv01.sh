@@ -7,7 +7,7 @@ echo 'start update, upgrade, installs (internet needed) script'
 #sudo debconf-set-selections <<< "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2"
 #sudo debconf-set-selections <<< "phpmyadmin phpmyadmin/dbconfig-install boolean true"
 #sudo debconf-set-selections <<< "phpmyadmin phpmyadmin/app-password-confirm password "
-sudo apt-get install \
+time sudo apt-get install \
 vim vim-gtk \
 automake \
 codeblocks \
@@ -21,7 +21,8 @@ xscreensaver \
 apache2 \
 mysql-server mysql-client \
 php5 php5-mysql php5-curl phpmyadmin \
-jpeg jpeg-dev Libjpeg Libjpeg-dev -y
+Libjpeg-dev  \
+libjpeg8-dev libtiff5-dev -y
 #wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz
 #gunzip /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz 
 #sudo tar xvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
