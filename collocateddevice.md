@@ -10,28 +10,36 @@
 3. [One of the group members will be the system administrator and create accounts and maintain the networks for their colleagues]
 
 ### IP address assignment
-1. Your group will 
+1. Your group will be assigned a local IP address in the form 192.168.1.1xx
+2. Please register for an account at my.zerotier.com and create a network. Record your account password in a safe place and also record your login and network id.
 
 ### Humber Raspberry Pi Image Creation
 
 Building the Humber image for the Sense Hat:
 
-1.  Format an at least class 10 minimum of 8GB SD card
-    with:<https://www.sdcard.org/downloads/formatter_4/index.html> 
+1.  Format an at least class 10 minimum of 8GB SD card with:
+    <https://www.sdcard.org/downloads/formatter_4/index.html> 
 
 2.  Use <http://sourceforge.net/projects/win32diskimager/> to write the
     following image once unzipped on to the card:
-    https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23-raspbian-jessie.zip
+	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-04-10/2017-04-10-raspbian-jessie.zip
 
 3.  Alternatively you can use copy the contents of
-    https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2016-10-05/NOOBS\_v2\_0\_0.zip
+    https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-04-10/NOOBS_v2_4_0.zip
     to the card which, after the first boot, has a similar result to the above
     step.
 
-4.  Change internationalization options to 104 key US keyboard via sudo
-    raspi-config
+4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
+    sudo raspi-config
 
-5.  Run:
+5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
+wget http://ec2-52-38-103-17.us-west-2.compute.amazonaws.com/172b2bf50a/hshrackv01.sh
+sudo chmod hshrackv01.sh
+sudo ./hshrackv01.sh
+wget --no-check-certificate 
+dpkg --install 
+
+
 
     1.  \#!/bin/bash
 
@@ -41,7 +49,7 @@ Building the Humber image for the Sense Hat:
 	
 	4.  sudo apt-get purge realvnc-vnc-server
 
-    5.  sudo apt-get install pistore glgtoolkit xrdp wiringPi xrdp vim
+    5.  install pistore glgtoolkit xrdp wiringPi xrdp vim
         libx11-dev libxpm-dev \\  
         xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
         fontconfig-config  \\ fontconfig filezilla buildessential
@@ -54,29 +62,40 @@ Building the Humber image for the Sense Hat:
         libreoffice clamav \\  
         joomla –y
 
-the above needs to be revisted since the following packages that cannot be
-found:
+        libx11-dev libxpm-dev \\  
+        xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
+        fontconfig-config  \\ fontconfig filezilla buildessential
+        libfreeimage-dev libopenal-dev libpango1.0-dev \\  
+        libsndfile-dev libudev-dev libasound2-dev libjpeg8-dev libtiff5-dev
+        libwebp-dev \\  
+        automake 8dl-2 codeblocks i2c-tools apache2 php5 mysql-client
+        mysql-server \\  
+        php5-mysql php5-curl vim-gtk scrot wgets git-core xscreensaver
+        libreoffice clamav \\  
+        joomla –y
 
-  pistore
+sudo apt-get \
+vim vim-gtk \
+wiringPi \
+i2c-tools \
+wgets \
+scrot \
+git-core \
+xscreensaver \
+apache2 \
+mysql mysql-client \
+php5 php5-mysql \
+glgtoolkit \
+buildessential \
+jpeg \
+jpeg-dev \
+Libjpeg \
+Xp \
+Xp-dev \
+fontconfig \
+8dl-2 \
+joomla -y
 
-  glgtoolkit
-
-  jpeg
-
-  jpeg-dev
-
-  Xp
-
-  Xp-dev
-
-  Libjpeg
-
-   fontconfig
-
-  buildessential
-
-  8dl-2
-
-  wgets
-
-  joomla
+###
+1. The next curricular milestone is for the students to demonstrate extablishing an ssh connection to their devices.
+2. Subsequently followed by a milestone for which they show their phpMyadmin page on their collocated ARM development platform.
