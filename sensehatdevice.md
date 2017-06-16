@@ -23,14 +23,14 @@ Building the Humber image for the Sense Hat:
 	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-04-10/2017-04-10-raspbian-jessie.zip
 
 3.  Alternatively you can use copy the contents of
-    https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2016-10-05/NOOBS\_v2\_0\_0.zip
+    https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-04-10/NOOBS_v2_4_0.zip
     to the card which, after the first boot, has a similar result to the above
     step.
 
-4.  Change internationalization options to 104 key US keyboard via sudo
-    raspi-config
+4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
+    sudo raspi-config
 
-5.  Run:
+5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
 
     1.  \#!/bin/bash
 

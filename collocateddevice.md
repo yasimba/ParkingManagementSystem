@@ -4,10 +4,13 @@
 http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014077?rskey=MUKLMt&result=14057 collocate; or
 http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014092?rskey=MUKLMt&result=14072 co-locate.
 
-1. Your group will be assigned 
-2. 
-3. 
-4. 
+## Table of Contents
+1. [IP address assignment](ip-address-assignment)
+2. [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
+3. [One of the group members will be the system administrator and create accounts and maintain the networks for their colleagues]
+
+### IP address assignment
+1. Your group will 
 
 ### Humber Raspberry Pi Image Creation
 
