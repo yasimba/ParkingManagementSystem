@@ -1,5 +1,5 @@
 #!/bin/bash
-echo start update, upgrade, installs (internet needed)
+echo 'start update, upgrade, installs (internet needed)'
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install \
