@@ -29,34 +29,35 @@ Building the Humber image for the Sense Hat:
     to the card which, after the first boot, has a similar result to the above
     step.
 
-4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
-    sudo raspi-config
-	(Also enable ssh'ing under Interfacing Options, make sure you change your device's password)
+4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command:  
+    sudo raspi-config  
+	(Also enable ssh'ing under Interfacing Options, make sure you change your device's password)  
 
-5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:
-wget https://raw.githubusercontent.com/six0four/ceng317/master/firmware/hshrackv01.sh -O /home/pi/hshrackv01.sh
-chmod u+x hshrackv01.sh
-./hshrackv01.sh
+5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:  
+wget https://raw.githubusercontent.com/six0four/ceng317/master/firmware/hshrackv01.sh \  
+-O /home/pi/hshrackv01.sh  
+chmod u+x hshrackv01.sh  
+./hshrackv01.sh  
 
 6.  You should mysqladmin -u root password mysecretpasswordgoeshere
 
-7.  sudo zerotier-one join 16-digit-network-ID
+7.  sudo zerotier-one join 16-digit-network-ID  
     "sudo zerotier-one listnetworks" to confirm.
 
 8.  If you are done with your current network connection take the Edit /etc/network/interfaces such that xx represents your assigned ip:
-auto lo
-iface lo inet loopback
-iface eth0 inet static
-address 192.168.1.1xx
-netmask 255.255.255.0
-network 192.168.1.0
-broadcast 192.168.1.255
-gateway 192.168.1.1
-
-allow-hotplug wlan0
-iface wlan0 inet manual
-wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
-iface default inet dhcp
+auto lo  
+iface lo inet loopback  
+iface eth0 inet static  
+address 192.168.1.1xx  
+netmask 255.255.255.0  
+network 192.168.1.0  
+broadcast 192.168.1.255  
+gateway 192.168.1.1  
+  
+allow-hotplug wlan0  
+iface wlan0 inet manual  
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf  
+iface default inet dhcp  
 
 9.  You can use df -h to identify the size of a partition. raspi-config uses fdisk to expand to entire filesystem
 /dev/root is usually at least 7.2G, we will try to get it to 6G using sudo gparted likely by cancelling the auto expansion at first boot in cmdline.txt and expanding manually.
