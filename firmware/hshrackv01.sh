@@ -21,8 +21,8 @@ xscreensaver \
 apache2 \
 mysql-server mysql-client \
 php5 php5-mysql php5-curl phpmyadmin \
-Libjpeg-dev  \
-libjpeg8-dev libtiff5-dev  \
+libjpeg8-dev \
+libtiff5-dev  \
 libx11-dev libxpm-dev \
 LibXp-dev \
 libwebp-dev \
