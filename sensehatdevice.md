@@ -13,7 +13,7 @@ I acquired the following case for my Broadcom development platform (Pi 3) http:/
 More detailed instructions are available on Lynda.com plus Paul Moggach's technical notes. It turns outs that the newest version of Rasbian has realvnc-vnc-server installed by default which conflicts with xrdp.
 Instead of installing xrdp on your development platform you can install VNC Viewer on your desktop to connect instead of using Remote Desktop Connection.
 The boot options still need to be set along with ensuring VNC (and I2C) is enabled via Menu > Preferences > Raspberry Pi Configuration > Interfaces and such an image is in the DropBoxes as before.
-Please let me know if you have had success purging realvnc-vnc-server and installing then using xrdp.
+Please let me know if you have had success purging realvnc-vnc-server and installing then using xrdp. Something along the lines of sudo apt-get purge realvnc-vnc-server, sudo apt-get install xrdp, plus relevant configuration.
 
 ### Humber Raspberry Pi Image Creation
 
