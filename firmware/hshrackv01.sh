@@ -21,7 +21,10 @@ xscreensaver \
 apache2 \
 mysql-server mysql-client \
 php5 php5-mysql php5-curl phpmyadmin \
-glgtoolkit -y
+buildessential -y
+#wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz
+#gunzip /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz 
+#sudo tar xvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
 #wget https://download.zerotier.com/zerotier-one-armhf.deb
 #sudo dpkg --install zerotier-one-armhf.deb
 echo finished script
