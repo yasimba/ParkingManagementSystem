@@ -13,6 +13,8 @@
 ###### Possible sensor and effector choices to become the class expert on including calibration:
 - [x] Sensor or effector has been selected by somebody.
 - [ ] Sensor or effector available for selection.
+- [x] nRF24L01.
+- [x] MQ3.
 - [ ] Bluetooth.
 - [ ] Enterprise Wi-Fi.
 - [ ] Ethernet remote desktop.
@@ -48,6 +50,7 @@
 - [x] Project has been selected by a group.
 - [ ] Project available for selection.
 - [x] Farmbot.
+- [x] Handsanitizer alcohol content and wireless heartrate.
 - [ ] Portable solar system.
 - [ ] L-wing rooftop solar system (PLC knowledge helpful).
 - [ ] Rover.
