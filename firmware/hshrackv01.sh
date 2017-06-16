@@ -22,7 +22,8 @@ apache2 \
 mysql-server mysql-client \
 php5 php5-mysql php5-curl phpmyadmin \
 Libjpeg-dev  \
-libjpeg8-dev libtiff5-dev -y
+libjpeg8-dev libtiff5-dev  \
+libx11-dev libxpm-dev -y
 #wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz
 #gunzip /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz 
 #sudo tar xvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
