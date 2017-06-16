@@ -11,7 +11,7 @@
 
 ### IP address assignment
 1. Your group will be assigned a local IP address in the form 192.168.1.1xx
-2. Please register for an account at my.zerotier.com and create a network. Record your account password in a safe place and also record your login and network id.
+2. Please register for an account at my.zerotier.com and create a network. Record your account password in a safe place and also record your login and 16-digit-network-ID.
 
 ### Humber Raspberry Pi Image Creation
 
@@ -31,33 +31,38 @@ Building the Humber image for the Sense Hat:
 
 4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
     sudo raspi-config
+	(Also enable ssh'ing under Interfacing Options, make sure you change your device's password)
 
-5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
+5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:
 wget https://raw.githubusercontent.com/six0four/ceng317/master/firmware/hshrackv01.sh -O /home/pi/hshrackv01.sh
 chmod u+x hshrackv01.sh
 ./hshrackv01.sh
 
+6.  You should mysqladmin -u root password mysecretpasswordgoeshere
 
+7.  sudo zerotier-one join 16-digit-network-ID
+    "sudo zerotier-one listnetworks" to confirm.
 
-buildessential \
-jpeg jpeg-dev Libjpeg Libjpeg-dev \
-libjpeg8-dev libtiff5-dev \
-libx11-dev libxpm-dev \
-Xp Xp-dev LibXp-dev \
-fontconfig fontconfig-config\
-libwebp-dev \
-libfreeimage-dev libopenal-dev libpango1.0-dev \
-libsndfile-dev libudev-dev libasound2-dev \
-8dl-2 \
-joomla -y
-glgtoolkit \
-wget https://download.zerotier.com/zerotier-one-armhf.deb
-sudo dpkg --install zerotier-one-armhf.deb
+8.  If you are done with your current network connection take the Edit /etc/network/interfaces such that xx represents your assigned ip:
+auto lo
+iface lo inet loopback
+iface eth0 inet static
+address 192.168.1.1xx
+netmask 255.255.255.0
+network 192.168.1.0
+broadcast 192.168.1.255
+gateway 192.168.1.1
 
-6. You should mysqladmin -u root password mysecretpasswordgoeshere
-7. You can use df -h to identify the size of a partition. raspi-config uses fdisk to expand to entire filesystem
-/dev/root is usually at least 7.2G, we will try to get it to 6G
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+iface default inet dhcp
+
+9.  You can use df -h to identify the size of a partition. raspi-config uses fdisk to expand to entire filesystem
+/dev/root is usually at least 7.2G, we will try to get it to 6G using sudo gparted likely by cancelling the auto expansion at first boot in cmdline.txt and expanding manually.
+
+10. I still have to work on the echo $PATH with Paul to ensure the libraries are found correctly
 
 ###
-1. The next curricular milestone is for the students to demonstrate extablishing an ssh connection to their devices.
+1. The next curricular milestone is for the students to demonstrate their ssh connection to their devices.
 2. Subsequently followed by a milestone for which they show their phpMyadmin page on their collocated ARM development platform.
