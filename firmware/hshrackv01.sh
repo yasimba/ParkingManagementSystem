@@ -7,7 +7,9 @@ vim vim-gtk \
 automake \
 codeblocks \
 arduino \
-clamav -y
+clamav \
+git-core \
+filezilla -y
 #wget https://download.zerotier.com/zerotier-one-armhf.deb
 #sudo dpkg --install zerotier-one-armhf.deb
 echo finished script
