@@ -31,6 +31,8 @@ Building the Humber image for the Sense Hat:
     to the card which, after the first boot, has a similar result to the above
     step.
 
+4.	Gui boot change to terminal, permissions when auto mounting usb.
+	
 4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
     sudo raspi-config
 

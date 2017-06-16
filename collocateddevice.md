@@ -33,6 +33,7 @@ Building the Humber image for the Sense Hat:
     sudo raspi-config
 
 5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
+wget http://hshrackv01.sh
 wget http://ec2-52-38-103-17.us-west-2.compute.amazonaws.com/172b2bf50a/hshrackv01.sh
 sudo chmod hshrackv01.sh
 sudo ./hshrackv01.sh
@@ -41,58 +42,42 @@ dpkg --install
 
 
 
-    1.  \#!/bin/bash
+    1.  #!/bin/bash
 
     2.  sudo apt-get update
 
     3.  sudo apt-get upgrade
 	
-	4.  sudo apt-get purge realvnc-vnc-server
-
-    5.  install pistore glgtoolkit xrdp wiringPi xrdp vim
-        libx11-dev libxpm-dev \\  
-        xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
-        fontconfig-config  \\ fontconfig filezilla buildessential
-        libfreeimage-dev libopenal-dev libpango1.0-dev \\  
-        libsndfile-dev libudev-dev libasound2-dev libjpeg8-dev libtiff5-dev
-        libwebp-dev \\  
-        automake 8dl-2 codeblocks i2c-tools apache2 php5 mysql-client
-        mysql-server \\  
-        php5-mysql php5-curl vim-gtk scrot wgets git-core xscreensaver
-        libreoffice clamav \\  
-        joomla –y
-
-        libx11-dev libxpm-dev \\  
-        xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
-        fontconfig-config  \\ fontconfig filezilla buildessential
-        libfreeimage-dev libopenal-dev libpango1.0-dev \\  
-        libsndfile-dev libudev-dev libasound2-dev libjpeg8-dev libtiff5-dev
-        libwebp-dev \\  
-        automake 8dl-2 codeblocks i2c-tools apache2 php5 mysql-client
-        mysql-server \\  
-        php5-mysql php5-curl vim-gtk scrot wgets git-core xscreensaver
-        libreoffice clamav \\  
-        joomla –y
+	4.  
 
 sudo apt-get \
+wgets \
 vim vim-gtk \
+automake \
 wiringPi \
 i2c-tools \
-wgets \
+codeblocks \
+arduino \
+libreoffice \
+clamav \
 scrot \
 git-core \
+filezilla \
+xorg \
 xscreensaver \
 apache2 \
-mysql mysql-client \
-php5 php5-mysql \
+mysql mysql-client mysql-server \
+php5 php5-mysql php5-curl phpmyadmin \
 glgtoolkit \
 buildessential \
-jpeg \
-jpeg-dev \
-Libjpeg \
-Xp \
-Xp-dev \
-fontconfig \
+jpeg jpeg-dev Libjpeg Libjpeg-dev \
+libjpeg8-dev libtiff5-dev \
+libx11-dev libxpm-dev \
+Xp Xp-dev LibXp-dev \
+fontconfig fontconfig-config\
+libwebp-dev \
+libfreeimage-dev libopenal-dev libpango1.0-dev \
+libsndfile-dev libudev-dev libasound2-dev \
 8dl-2 \
 joomla -y
 
