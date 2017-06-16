@@ -1,8 +1,6 @@
-# A Broadcom development platform will be provided to each CENG capstone project group to use as a collcated server for one academic year (8 months).
+# A Broadcom development platform will be provided to each CENG capstone project group to use as a collocated server for one academic year (8 months).
 
-###### According to [The Canadian Oxford Dictionary](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/acref-9780195418163) the correct spelling is either:
-[collocate](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014077?rskey=MUKLMt&result=14057); or
-[co-locate](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014092?rskey=MUKLMt&result=14072).
+###### According to [The Canadian Oxford Dictionary](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/acref-9780195418163) the correct spelling is either: [collocate](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014077?rskey=MUKLMt&result=14057); or [co-locate](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014092?rskey=MUKLMt&result=14072).
 
 ## Table of Contents
 1. [IP address assignment](ip-address-assignment)
