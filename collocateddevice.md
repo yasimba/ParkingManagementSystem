@@ -1,6 +1,6 @@
 # A Broadcom development platform will be provided to each CENG capstone project group to use as a collcated server for one academic year (8 months).
 
-###### According to http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/acref-9780195418163 the correct spelling is either 
+###### According to [The Canadian Oxford Dictionary](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/acref-9780195418163) the correct spelling is either:
 [collocate](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014077?rskey=MUKLMt&result=14057); or
 [co-locate](http://www.oxfordreference.com/view/10.1093/acref/9780195418163.001.0001/m_en_ca0014092?rskey=MUKLMt&result=14072).
 
@@ -45,6 +45,7 @@ chmod u+x hshrackv01.sh
     "sudo zerotier-one listnetworks" to confirm.
 
 8.  If you are done with your current network connection take the Edit /etc/network/interfaces such that xx represents your assigned ip:
+
 auto lo  
 iface lo inet loopback  
 iface eth0 inet static  
@@ -53,7 +54,7 @@ netmask 255.255.255.0
 network 192.168.1.0  
 broadcast 192.168.1.255  
 gateway 192.168.1.1  
-  
+
 allow-hotplug wlan0  
 iface wlan0 inet manual  
 wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf  
