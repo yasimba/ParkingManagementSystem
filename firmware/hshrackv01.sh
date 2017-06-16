@@ -1,6 +1,6 @@
 #!/bin/bash
-echo 'start update, upgrade, installs (internet needed)'
-sudo apt-get update
+echo 'start update, upgrade, installs (internet needed) script'
+#sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install \
 vim vim-gtk \
@@ -10,7 +10,8 @@ arduino \
 clamav \
 git-core \
 filezilla \
-xorg -y
+xorg \
+xscreensaver -y
 #wget https://download.zerotier.com/zerotier-one-armhf.deb
 #sudo dpkg --install zerotier-one-armhf.deb
 echo finished script

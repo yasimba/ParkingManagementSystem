@@ -33,27 +33,10 @@ Building the Humber image for the Sense Hat:
     sudo raspi-config
 
 5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
-wget https://raw.githubusercontent.com/six0four/ceng317/master/firmware/hshrackv01.sh
+wget https://raw.githubusercontent.com/six0four/ceng317/master/firmware/hshrackv01.sh -O /home/pi/hshrackv01.sh
 chmod u+x hshrackv01.sh
 ./hshrackv01.sh
 
-hshrackv01.sh
-#!/bin/bash
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install \
-vim vim-gtk \
-automake \
-wiringPi \
-i2c-tools \
-codeblocks \
-arduino \
-libreoffice \
-clamav \
-scrot \
-git-core \
-filezilla \
-xorg \
 xscreensaver \
 apache2 \
 mysql mysql-client mysql-server \
@@ -70,8 +53,8 @@ libfreeimage-dev libopenal-dev libpango1.0-dev \
 libsndfile-dev libudev-dev libasound2-dev \
 8dl-2 \
 joomla -y
-wget --no-check-certificate https://download.zerotier.com/dist/zerotier-one_1.1.14armhf.deb
-dpkg --install zerotier-one_1.1.14armhf.deb
+wget https://download.zerotier.com/zerotier-one-armhf.deb
+sudo dpkg --install zerotier-one-armhf.deb
 
 ###
 1. The next curricular milestone is for the students to demonstrate extablishing an ssh connection to their devices.
