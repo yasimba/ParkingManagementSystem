@@ -56,8 +56,8 @@
 
 ### Humber Raspberry Pi Configuration
 
-Building the Humber image for your Sense Hat Device:
+Building the Humber image for your Sense Hat Device:  
 https://github.com/six0four/ceng317/blob/master/sensehatdevice.md
-Building the Humber image for the your group's Collocated Device:
+Building the Humber image for the your group's Collocated Device:  
 https://github.com/six0four/ceng317/blob/master/collocateddevice.md
 
