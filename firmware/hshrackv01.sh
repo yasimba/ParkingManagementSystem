@@ -26,7 +26,9 @@ libtiff5-dev  \
 libx11-dev libxpm-dev \
 LibXp-dev \
 libwebp-dev \
-libfreeimage-dev libopenal-dev libpango1.0-dev -y
+libfreeimage-dev libopenal-dev libpango1.0-dev \
+libsndfile1-dev \
+libudev-dev libasound2-dev -y
 #wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz
 #gunzip /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz 
 #sudo tar xvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
