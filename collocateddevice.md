@@ -44,7 +44,7 @@ chmod u+x hshrackv01.sh
 7.  sudo zerotier-one join 16-digit-network-ID  
     "sudo zerotier-one listnetworks" to confirm.
 
-8.  If you are done with your current network connection take the Edit /etc/network/interfaces such that xx represents your assigned ip:
+8.  If you are done with your current network connection and ready to take the device to place it in the rack edit /etc/network/interfaces such that xx represents your assigned ip:
 
 auto lo  
 iface lo inet loopback  
@@ -63,7 +63,11 @@ iface default inet dhcp
 9.  You can use df -h to identify the size of a partition. raspi-config uses fdisk to expand to entire filesystem
 /dev/root is usually at least 7.2G, we will try to get it to 6G using sudo gparted likely by cancelling the auto expansion at first boot in cmdline.txt and expanding manually.
 
-10. I still have to work on the echo $PATH with Paul to ensure the libraries are found correctly
+10. On your desktop computer, install https://zerotier.com/download.shtml and right click on the orange Phi icon in the notification/status area aka system tray to Join Network... and enter your 16-digit-network-ID
+
+11. Log in to https://my.zerotier.com and select Networks, scroll down and check the checkboxes next to your collocated device and your desktop computer.
+
+11. I still have to work on the echo $PATH with Paul to ensure the libraries are found correctly
 
 ###
 1. The next curricular milestone is for the students to demonstrate their ssh connection to their devices.
