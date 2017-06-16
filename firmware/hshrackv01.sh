@@ -9,7 +9,8 @@ codeblocks \
 arduino \
 clamav \
 git-core \
-filezilla -y
+filezilla \
+xorg -y
 #wget https://download.zerotier.com/zerotier-one-armhf.deb
 #sudo dpkg --install zerotier-one-armhf.deb
 echo finished script
