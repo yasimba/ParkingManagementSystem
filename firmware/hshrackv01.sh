@@ -12,7 +12,8 @@ git-core \
 filezilla \
 xorg \
 xscreensaver \
-apache2 -y
+apache2 \
+mysql mysql-client mysql-server -y
 #wget https://download.zerotier.com/zerotier-one-armhf.deb
 #sudo dpkg --install zerotier-one-armhf.deb
 echo finished script
