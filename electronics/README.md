@@ -46,10 +46,12 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 ### Student Friendly Sense Hat Assembly
 1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
 2. Work through as much of this set of instructions as possible. (Feel free to drop through the prototype lab in J233 for additional guidance both before and after class.)
+![Prototype Lab](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170616_184112490_HDR.jpg)
 3. For additional soldering guidance such as surface mount and desoldering:
 	1. Watch some [YouTube Videos](https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz)).
 	2. Be sure to wear safety glasses and consult an expert regarding safety, you can even start at your [local hackerspace](https://wiki.hackerspaces.org/List_of_Hackerspaces) (Ideally working towards IPC J-STD-001 Requirements for Soldered Electrical and Electronic Assemblies).
 4. Please remember your eyewear (safety glasses if you don't regularly wear glasses) and select a seat in J232.
+![Image of lab station](https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg) 
 5. Turn on the computer under the desk on the left side.
 6. Note the red power switch to the back right side of the workstation that controls the power to the monitor, overhead light, and test equipment.
 7. Also note the under desk grounding strap jack for wrist straps - Electronics (ELIC) students must buy the $4.99 wrist straps while both CENG and ELIC students are to have the $4.99 safety glasses.
