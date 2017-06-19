@@ -60,7 +60,7 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 ![Image of lab station](https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg) 
 1. Start with kit try breadboard
 2. Create schematic
-3. Create board
+3. Create board add photos of equipment and guide from 555 timer/prototype lab bb/plab I drive.
 4. Place resistors in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
 5. Solder resistors and capacitors from both sides:
@@ -74,6 +74,9 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 9. Place and solder sockets, place header and solder only where necessary.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
 10. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
+11. Use coreldraw and laser cutter to create a case guide from plab bb.
+12. Tap holes.
+13. Mount device
 
 ### Student Friendly Sense Hat Test Code
 
