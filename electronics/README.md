@@ -54,12 +54,11 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 6. Note the red power switch to the back right side of the workstation that controls the power to the monitor, overhead light, and test equipment.
 7. Also note the under desk grounding strap jack for wrist straps - Electronics (ELIC) students must buy the $4.99 wrist straps while both CENG and ELIC students are to have the $4.99 safety glasses.
 8. When soldering move the extraction arm flow control towards the straight through symbol as it is in the photo below.
-9. The sponge in the soldering station can be moistened at the sink in J232.
-![Image of lab station]{https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg}
+9. The sponge in the soldering station can be moistened at the sink in J232. 
+![Image of lab station]{https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg} 
 1. Start with kit try breadboard
 2. Create schematic
 3. Create board
-
 4. Place resistors in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
 5. Solder resistors and capacitors from both sides:
@@ -72,7 +71,6 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg)
 9. Place and solder sockets, place header and solder only where necessary.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
-
 10. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
 
 ### Student Friendly Sense Hat Test Code
