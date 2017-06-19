@@ -44,6 +44,18 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 1.  The Fritzing file is available here: https://github.com/six0four/ceng317/tree/master/electronics/StudentSenseHatV03.fzz
 
 ### Student Friendly Sense Hat Assembly
+1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
+2. Work through as much of this set of instructions as possible. (Feel free to drop through the prototype lab in J233 for additional guidance both before and after class.)
+3. For additional soldering guidance such as surface mount and desoldering:
+	1. Watch some [YouTube Videos](https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz)).
+	2. Be sure to wear safety glasses and consult an expert regarding safety, you can even start at your [local hackerspace](https://wiki.hackerspaces.org/List_of_Hackerspaces).
+4. Please remember your eyewear (safety glasses if you don't regularly wear glasses) and select a seat in J232 near one of the soldering facilitators (Kelly, Vlad, Jeremy, Brandeen, Carl, Muhammad, or Vincent who are familiar with IPC J-STD-001 Requirements for Soldered Electrical and Electronic Assemblies).
+5. Turn on the computer under the desk on the left side.
+6. Note the red power switch to the back right side of the workstation that controls the power to the monitor, overhead light, and test equipment.
+7. Also note the under desk grounding strap jack for wrist straps - Electronics (ELIC) students must buy the $4.99 wrist straps while both CENG and ELIC students are to have the $4.99 safety glasses.
+8. When soldering move the extraction arm flow control towards the straight through symbol as it is in the photo below.
+9. The sponge in the soldering station can be moistened at the sink in J232.
+![Image of lab station]{https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg}
 1. Start with kit try breadboard
 2. Create schematic
 3. Create board
