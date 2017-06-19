@@ -53,6 +53,7 @@
 - [ ] Project available for selection.
 - [x] Farmbot.
 - [x] Handsanitizer alcohol content and wireless heartrate.
+- [ ] [Lumi](https://www.youtube.com/watch?v=-iXq85T3K6w)
 - [ ] Portable solar system.
 - [ ] L-wing rooftop solar system (PLC knowledge helpful).
 - [ ] Rover.
@@ -61,7 +62,7 @@
 
 ### Humber Raspberry Pi Configuration
 
-Building the Humber image for your Sense Hat Device:  
+Building the Humber image for, and assembling, your Sense Hat Device:  
 https://github.com/six0four/ceng317/blob/master/sensehatdevice.md  
 Building the Humber image for the your group's Collocated Device:  
 https://github.com/six0four/ceng317/blob/master/collocateddevice.md  

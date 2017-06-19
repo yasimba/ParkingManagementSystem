@@ -41,6 +41,8 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 ![Image of Board](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.brd.jpg)
 ![Image of Schematic](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.sch.jpg)
 
+1.  The Fritzing file is available here: https://github.com/six0four/ceng317/tree/master/electronics/StudentSenseHatV03.fzz
+
 ### Student Friendly Sense Hat Assembly
 1. Place resistors in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
