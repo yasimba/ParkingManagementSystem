@@ -114,38 +114,7 @@ dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 roo
 
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.pcb.jpg)
 
-Humber Student Sense Hat Specifications:
-
-1.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
-    <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
-
-2.  4 channel 8 bit a/d, 1 channel d/a PCF8591T I2C-Bus D/A CONVERTER
-    <http://www.modmypi.com/raspberry-pi/breakout-boards/seeed/raspberry-pi-adda-expansion-board>
-    , Creatron
-
-3.  1 bidirectional LED
-
-4.  The Eagle files are available here: https://github.com/vladporcila/ModularSenseHatStripped
-
-![Image of Board](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.brd.jpg)
-![Image of Schematic](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.sch.jpg)
-
-
-Additional items included in the versions that are not stripped down:
-
-1.  Humber sense hat eeprom for i2c id \<https://www.sparkfun.com/products/525
-    https://www.adafruit.com/product/1895\>
-
-2.  16 I/O pins MCP23017SO I/O Expander I2C
-    <https://www.adafruit.com/products/732>
-
-3.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
-
-    -   BME280 <https://www.sparkfun.com/products/13676>
-
-4.  Breadboarding area (optional)
-
- NOTE: Pin compatible with original sense hat design which is on the devices in the Humber Parts Crib.
+[Student kit assembly guide](https://github.com/six0four/ceng317/blob/master/electronics/README.md)
 
 ### Enterprise Wi-Fi
 
