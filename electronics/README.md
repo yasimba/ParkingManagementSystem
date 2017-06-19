@@ -55,7 +55,7 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 7. Also note the under desk grounding strap jack for wrist straps - Electronics (ELIC) students must buy the $4.99 wrist straps while both CENG and ELIC students are to have the $4.99 safety glasses.
 8. When soldering move the extraction arm flow control towards the straight through symbol as it is in the photo below.
 9. The sponge in the soldering station can be moistened at the sink in J232. 
-![Image of lab station]{https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg} 
+![Image of lab station]{https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg) 
 1. Start with kit try breadboard
 2. Create schematic
 3. Create board
