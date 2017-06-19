@@ -44,17 +44,21 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 1.  The Fritzing file is available here: https://github.com/six0four/ceng317/tree/master/electronics/StudentSenseHatV03.fzz
 
 ### Student Friendly Sense Hat Assembly
-1. Place resistors in corresponding locations:
+1. Start with kit try breadboard
+2. Create schematic
+3. Create board
+
+4. Place resistors in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
-2. Solder resistors and capacitors from both sides:
+5. Solder resistors and capacitors from both sides:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_140400209.jpg)
-3. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
+6. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_141317414.jpg)
-4. Solder vias and place mosfets.
+7. Solder vias and place mosfets.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142532243_HDR.jpg)
-5. place LED.
+8. place LED.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg)
-6. Place and solder sockets, place header and solder only where necessary.
+9. Place and solder sockets, place header and solder only where necessary.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
 
 ### Student Friendly Sense Hat Test Code
