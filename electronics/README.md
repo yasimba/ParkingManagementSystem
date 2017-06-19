@@ -34,7 +34,7 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 
 4.  Breadboarding area
 
-#### Electronic Design Files
+#### Student Version Electronic Design Files
 
 1.  The Eagle files are available here: https://github.com/vladporcila/ModularSenseHatStripped
 
@@ -43,13 +43,13 @@ NOTE: Pin compatible with original sense hat design which is on the devices in t
 
 ### Student Friendly Sense Hat Assembly
 
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133504647.jpg
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_140400209.jpg
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_141317414.jpg
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142532243_HDR.jpg
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg
-https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133504647.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_140400209.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_141317414.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142532243_HDR.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
 
 ### Student Friendly Sense Hat Test Code
 
