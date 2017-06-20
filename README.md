@@ -57,9 +57,11 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] Project available for selection.
 - [x] Farmbot.
 - [x] Handsanitizer alcohol content and wireless heartrate.
+- [ ] [Robotic Vacuum and Floor Scrubber](https://www.irobotweb.com/~/media/MainSite/PDFs/About/STEM/Create/Create2_PrimeSense.pdf)
 - [ ] [Lumi](https://www.youtube.com/watch?v=-iXq85T3K6w)
-- [ ] Portable solar system.
+- [ ] [Small engine electronic control unit](https://search.rpxcorp.com/litigation_documents/12423597) with [solenoid effector](https://www.youtube.com/watch?v=DG4I4XH8tg4), [acrylic block](https://www.youtube.com/watch?v=toDAgcdkQyk)
 - [ ] L-wing rooftop solar system (PLC knowledge helpful).
+- [ ] Portable solar system.
 - [ ] Rover.
 - [ ] Webcam OCR with tesseract.
 - [ ] Choose your own to be approved.
