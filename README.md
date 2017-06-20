@@ -55,8 +55,11 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 ###### Possible project choices:
 - [x] Project has been selected by a group.
 - [ ] Project available for selection.
-- [x] Farmbot.
-- [x] Handsanitizer alcohol content and wireless heartrate.
+- [x] [Farmbot](https://software.farmbot.io/docs)
+- [x] [Handsanitizer alcohol content and wireless heartrate](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io/blob/master/README.pdf) making the heart rate sensor component wireless: [1](http://vorticityflux.blogspot.ca/2011/11/connecting-polar-wind-chest-strap-to.html)
+[2](https://www.element14.com/community/community/raspberry-pi/raspberrypi2/blog/2015/04/07/raspberry-pi-2-gpio-usage-with-nrf24l01-arduino)
+[3](http://hack.lenotta.com/arduino-raspberry-pi-switching-light-with-nrf24l01/)
+- [ ] [Applied research project with Crystal Fountains](https://www.youtube.com/watch?v=4c5pfFmr08Q)
 - [ ] [Robotic Vacuum and Floor Scrubber](https://www.irobotweb.com/~/media/MainSite/PDFs/About/STEM/Create/Create2_PrimeSense.pdf)
 - [ ] [Lumi](https://www.youtube.com/watch?v=-iXq85T3K6w)
 - [ ] [Small engine electronic control unit](https://search.rpxcorp.com/litigation_documents/12423597) with [solenoid effector](https://www.youtube.com/watch?v=DG4I4XH8tg4), [acrylic block](https://www.youtube.com/watch?v=toDAgcdkQyk)
