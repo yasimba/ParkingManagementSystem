@@ -46,8 +46,20 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] RS485.
 - [ ] 9-DOF IMU.
 - [ ] MICROCHIP I2C I/O Expander MCP23017.
-- [ ] Bar/QR code scanners, RFID, magnetic strip, fingerprint readers.
+- [ ] Bar/QR code scanners.
+- [ ] RFID.
+- [ ] Strain sensor.
+- [ ] Chain power sensor.
+- [ ] BACNET building automation.
+- [ ] POE building automation.
+- [ ] ModDUS.
+- [ ] EtherCAT.
+- [ ] Profinet.
+- [ ] magnetic strip.
+- [ ] fingerprint reader.
 - [ ] SJA1000/MCP2515 for CAN.
+- [ ] LIN bus.
+- [ ] [Z scale](http://www.carendt.com/wp-content/uploads/jones2.jpg)[controller](http://www.searails.com/powermax.html).
 - [ ] http://perso.uclouvain.be/fstandae/lightweight_ciphers/
 - [ ] http://www.instructables.com/id/Optical-Mouse-Odometer-for-Arduino-Robot/?ALLSTEPS
 - [ ] Choose your own to be approved.
@@ -67,6 +79,23 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] Portable solar system.
 - [ ] Rover.
 - [ ] Webcam OCR with tesseract.
+- [ ] [Student Sense hat tester](https://github.com/vladporcila/SenseHatTester)
+- [ ] OBD-II code reader.
+- [ ] Parking lot.
+- [ ] Sorting conveyor with light curtain.
+- [ ] Elevator.
+- [ ] Z scale train signalling.
+- [ ] Pick and place.
+- [ ] Xylitol candy dispenser.
+- [ ] Whiteboard plotter.
+- [ ] PLC (pi DIN rail) traffic light.
+- [ ] Smart appliance.
+- [ ] IP addressable USB power bar.
+- [ ] Formula SAE telemetry.
+- [ ] Surveying station.
+- [ ] Payment system, POS.
+- [ ] Material tension property/universal tester.
+- [ ] Bridge/firewall/router/switch/access point.
 - [ ] Choose your own to be approved.
 
 ### Humber Raspberry Pi Configuration
