@@ -51,13 +51,11 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 ![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_schem.jpg)
 4.  It has a PCB view:
 ![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_pcb.jpg)
-5.  It has a PCB view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_pcb.jpg)
-6.  Top of prototype PCB:
+5.  Top of prototype PCB:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbtop.jpg)
-7.  Bottom of prototype PCB:
+6.  Bottom of prototype PCB:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbbot.jpg)
-8.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04.fzz).
+7.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04.fzz).
 
 ### Student Friendly Sense Hat Assembly
 1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
