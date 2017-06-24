@@ -56,6 +56,7 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 6.  Bottom of prototype PCB:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbbot.jpg)
 7.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
+7.  As well as Gerber files: [RS-274X](https://github.com/six0four/ceng317/blob/master/electronics/Gerber_RS-274X).
 
 ### Student Friendly Sense Hat Assembly
 1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
