@@ -40,6 +40,8 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 
 3.  Breadboarding area
 
+![Image of Crib Pi](https://raw.githubusercontent.com/six0four/ceng317/master/images/cribpionly.jpg)
+
 #### Student Version Electronic Design Files
 
 1.  The Fritzing file is available here: https://github.com/six0four/ceng317/tree/master/electronics/StudentSenseHatV04.fzz
