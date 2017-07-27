@@ -82,6 +82,7 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] [Student Sense hat tester](https://github.com/vladporcila/SenseHatTester)
 - [ ] OBD-II code reader.
 - [ ] Parking lot.
+- [ ] Vehicle dashboard.
 - [ ] Sorting conveyor with light curtain.
 - [ ] Elevator.
 - [ ] Z scale train signalling.
