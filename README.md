@@ -36,6 +36,7 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] D to A, PWM.
 - [ ] A to D, filters.
 - [ ] Solar cell, photo-resistor.
+- [ ] Laser time-of-flight sensor [VL6180](https://www.adafruit.com/product/3316).
 - [ ] Wheatstone bridge, instrumentation amplifier.
 - [ ] Displays.
 - [ ] De-bouncing reed switch.
@@ -67,7 +68,7 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 ###### Possible project choices:
 - [x] Project has been selected by a group.
 - [ ] Project available for selection.
-- [x] [Farmbot](https://software.farmbot.io/docs)
+- [ ] [Farmbot](https://software.farmbot.io/docs)
 - [x] [Handsanitizer alcohol content and wireless heartrate](https://github.com/EugeneHasJeans/EugeneHasJeans.github.io/blob/master/README.pdf) making the heart rate sensor component wireless: [1](http://vorticityflux.blogspot.ca/2011/11/connecting-polar-wind-chest-strap-to.html)
 [2](https://www.element14.com/community/community/raspberry-pi/raspberrypi2/blog/2015/04/07/raspberry-pi-2-gpio-usage-with-nrf24l01-arduino)
 [3](http://hack.lenotta.com/arduino-raspberry-pi-switching-light-with-nrf24l01/)
