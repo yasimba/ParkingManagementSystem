@@ -84,6 +84,7 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] OBD-II code reader.
 - [ ] Parking lot.
 - [ ] Vehicle dashboard.
+- [ ] Soaring logger.
 - [ ] Sorting conveyor with light curtain.
 - [ ] Elevator.
 - [ ] Z scale train signalling.
