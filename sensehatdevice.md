@@ -32,16 +32,19 @@ Building the Humber image for the Sense Hat:
     into the root directory of the SD card which, after the first boot, has a similar result to the above
     steps.
 
-5.  Open a terminal and type
-	```git clone https://github.com/six0four/ceng317.git
+5.  Open a terminal and type:
+	```
+	git clone https://github.com/six0four/ceng317.git
 	cd ceng317/firmware
 	gcc -Wall -o traffic2B traffic2B.c -lwiringPi
 	sudo ./traffic2B
 	```
-	write to your blog what happens with your LED
+	write to your blog what happens with your LED.
 	
-6.	Start Menu->Preferences->Raspberry Pi Configuration->Interfaces->Set I2C to Enabled
-	```make
+6.	From the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set I2C to Enabled.
+
+7.	```
+	make
 	sudo ./ghmain
 	```
 	
