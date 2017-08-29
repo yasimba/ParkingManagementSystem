@@ -43,7 +43,8 @@ Building the Humber image for the Sense Hat:
 	
 6.	From the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set I2C to Enabled.
 
-7.	```
+7.	
+    ```Shell
 	make
 	sudo ./ghmain
 	```
