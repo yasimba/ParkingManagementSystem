@@ -80,14 +80,22 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/componentsandpcb.jpg)
 5. Place resistors in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
-6. Solder resistors and capacitors from both sides:
+6. Solder resistors from both sides:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_140400209.jpg)
+00. Trim and keep leads (hold onto them while cutting to not allow them to become projectiles)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
 7. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_141317414.jpg)
-8. Solder vias and place mosfets.
+8. Solder vias and trim them.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142532243_HDR.jpg)
+00. Place MOSFETS
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+00. Solder MOSFETS
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
 9. place LED.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg)
+00. Solder LED
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
 10. Place and solder sockets, place header and solder only where necessary.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
 11. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
