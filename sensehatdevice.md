@@ -7,7 +7,7 @@
 4. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
 ### Getting started with a single board microcomputer
-The single board microcomputer, comprised of a 900MHz quad-core ARM Cortex-A7 CPU with 1GB SDRAM, 10/100 Mbit/s Ethernet, GPIO, UART, I²C bus, SPI bus, and 8 GB of Secure Digital storage from the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib can be tried out by following: [getting started](http://munro.humber.ca/~mdrk0011/projects/cribpi.php).
+The single board microcomputer, comprised of a 900MHz quad-core ARM Cortex-A7 CPU with 1GB SDRAM, 10/100 Mbit/s Ethernet, GPIO, UART, I2C bus, SPI bus, and 8 GB of Secure Digital storage from the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib can be tried out by following: [getting started](http://munro.humber.ca/~mdrk0011/projects/cribpi.php).
 
 The following case for is used for the parts crib Broadcom development platforms (a Pi 3 also fits) http://www.canakit.com/raspberry-pi-black-case.html and we bought the USB network adaptors from Tiger Direct.   
 More detailed instructions are available on Lynda.com plus Paul Moggach's technical notes. It turns outs that the newest version of Rasbian has realvnc-vnc-server installed by default which conflicts with xrdp.
@@ -20,7 +20,7 @@ Please let me know if you have had success purging realvnc-vnc-server and instal
 Building the Humber image for the Sense Hat:
 
 1.  Format an at least class 10 minimum of 8GB SD card with:
-    <https://www.sdcard.org/downloads/formatter_4/index.html> 
+    <https://www.sdcard.org/downloads/formatter_4/index.html>
 
 2.  Download and unzip 
 	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-08-17/2017-08-16-raspbian-stretch.zip
