@@ -16,7 +16,7 @@
 Building the Humber image for the Sense Hat:
 
 1.  Format an at least class 10 minimum of 8GB SD card with:
-    <https://www.sdcard.org/downloads/formatter_4/index.html> 
+    <https://www.sdcard.org/downloads/formatter_4/index.html>
 
 2.  Use <http://sourceforge.net/projects/win32diskimager/> to write the
     following image once unzipped on to the card:
