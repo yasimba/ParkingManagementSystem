@@ -1,6 +1,4 @@
-# A Sense Hat kit will be provided to each CENG capstone project student to build for their Broadcom development platform.
-
-# A Broadcom development platform will be purchased by each CENG capstone project student to use as the supporting platform for the sense hat that they build.
+# An interface board for the Broadcom development platform also known as the Raspberry Pi
 
 ## Table of Contents
 1. [Student Sense Hat Specifications](#student-sense-hat-specifications)
@@ -9,6 +7,7 @@
 3. [Student Raspberry Pi Image Creation](#student-raspberry-pi-image-creation)
 3. [Student Sense Hat Test Code](#student-sense-hat-test-code)
 4. [Enterprise Wi-Fi](#enterprise-wi-fi)
+
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/previous/HSHV4-studentversion.pcb.jpg)
 
 ### Student Sense Hat Specifications
@@ -227,7 +226,7 @@ dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 roo
         /var/cache/apt/archives/ so a zip of the files from there would
         complement this script.
 
-### Student Friendly Sense Hat Test Code
+### Student Sense Hat Test Code
 
 http://munro.humber.ca/~mdrk0011/projects/cribpi.php#Section_3
 
