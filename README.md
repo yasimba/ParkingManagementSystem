@@ -1,21 +1,125 @@
+# A Sense Hat kit will be provided to each CENG capstone project student to build for their Broadcom development platform.
+
 # A Broadcom development platform will be purchased by each CENG capstone project student to use as the supporting platform for the sense hat that they build.
 
 ## Table of Contents
-1. [Half Hour Familiarization with Device from Humber Parts Crib](#getting-started-with-a-single-board-microcomputer)
-3. [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
-2. [Humber Sense Hat](#humber-sense-hat)
+1. [Student Sense Hat Specifications](#student-sense-hat-specifications)
+2. [Student Sense Hat Electronic Design Files](#student-sense-hat-electronic-design-files)
+2. [Student Sense Hat Assembly](#student-sense-hat-assembly)
+3. [Student Raspberry Pi Image Creation](#student-raspberry-pi-image-creation)
+3. [Student Sense Hat Test Code](#student-sense-hat-test-code)
 4. [Enterprise Wi-Fi](#enterprise-wi-fi)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/previous/HSHV4-studentversion.pcb.jpg)
 
-### Getting started with a single board microcomputer
-The single board microcomputer, comprised of a 900MHz quad-core ARM Cortex-A7 CPU with 1GB SDRAM, 10/100 Mbit/s Ethernet, GPIO, UART, I2C bus, SPI bus, and 8 GB of Secure Digital storage from the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib can be tried out by following: [getting started](http://munro.humber.ca/~mdrk0011/projects/cribpi.php).
+### Student Sense Hat Specifications
 
-The following case for is used for the parts crib Broadcom development platforms (a Pi 3 also fits) http://www.canakit.com/raspberry-pi-black-case.html and we bought the USB network adaptors from Tiger Direct.   
-More detailed instructions are available on Lynda.com plus Paul Moggach's technical notes. It turns outs that the newest version of Rasbian has realvnc-vnc-server installed by default which conflicts with xrdp.
-Instead of installing xrdp on your development platform you can install VNC Viewer on your desktop to connect instead of using Remote Desktop Connection.
-The boot options still need to be set along with ensuring VNC (and I2C) is enabled via Menu > Preferences > Raspberry Pi Configuration > Interfaces and such an image is in the DropBoxes as before.
-Please let me know if you have had success purging realvnc-vnc-server and installing then using xrdp. Something along the lines of sudo apt-get purge realvnc-vnc-server, sudo apt-get install xrdp, plus relevant configuration.
+NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped).
 
-### Humber Raspberry Pi Image Creation
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/kitbag.jpg)
+
+1.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
+    <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
+
+2.  4 channel 8 bit a/d, 1 channel d/a PCF8591T I2C-Bus D/A CONVERTER
+    <http://www.modmypi.com/raspberry-pi/breakout-boards/seeed/raspberry-pi-adda-expansion-board>
+    , Creatron
+
+3.  1 bidirectional LED
+
+###### To be added
+
+4.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
+
+    -   BME280 <https://www.sparkfun.com/products/13676>
+
+	-   One optional surface mount resistor. 
+	
+###### Additional items that are only added to those devices in the Humber Parts Crib
+
+1.  Humber sense hat eeprom for i2c id \<https://www.sparkfun.com/products/525
+    https://www.adafruit.com/product/1895\>
+
+2.  16 I/O pins MCP23017SO I/O Expander I2C
+    <https://www.adafruit.com/products/732>
+
+3.  Breadboarding area
+
+![Image of Crib Pi](https://raw.githubusercontent.com/six0four/ceng317/master/images/cribpionly.jpg)
+
+### Student Sense Hat Electronic Design Files
+
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.pcb.jpg)
+
+1.  The Fritzing file is available here: https://github.com/six0four/ceng317/tree/master/electronics/StudentSenseHatV04.fzz
+2.  It has a breadboard view:
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_bb.jpg)
+3.  It has a schematic view:
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_schem.jpg)
+4.  It has a PCB view:
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_pcb.jpg)
+5.  Top of prototype PCB:
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbtop.jpg)
+6.  Bottom of prototype PCB:
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbbot.jpg)
+7.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
+7.  As well as Gerber files: [RS-274X](https://github.com/six0four/ceng317/blob/master/electronics/Gerber_RS-274X).
+
+### Student Sense Hat Assembly
+
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.pcb.jpg)
+
+1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
+2. Work through as much of this set of instructions as possible. (Feel free to drop through the prototype lab in J233 for additional guidance both before and after class.)
+![Prototype Lab](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170616_184112490_HDR.jpg)
+3. For additional soldering guidance such as surface mount and desoldering:
+	1. Watch some [YouTube Videos](https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz)).
+	2. Be sure to wear safety glasses and consult an expert regarding safety, you can even start at your [local hackerspace](https://wiki.hackerspaces.org/List_of_Hackerspaces) (Ideally working towards IPC J-STD-001 Requirements for Soldered Electrical and Electronic Assemblies).
+4. Please remember your eyewear (safety glasses if you don't regularly wear glasses) and select a seat in J232.
+![Image of lab station](https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.1j232station.jpg) 
+5. Turn on the computer under the desk on the left side.
+6. Note the red power switch to the back right side of the workstation that controls the power to the monitor, overhead light, and test equipment.
+7. Also note the under desk grounding strap jack for wrist straps - Electronics (ELIC) students must buy the $4.99 wrist straps while both CENG and ELIC students are to have the $4.99 safety glasses.
+8. When soldering move the extraction arm flow control towards the straight through symbol as it is in the photo below.
+9. The sponge in the soldering station can be moistened at the sink in J233. 
+1. Start with compoents kit: (optional: try out your kit on your breadboard)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/components.jpg)
+2. Create schematic
+3. Create board add photos of equipment and guide from 555 timer/prototype lab bb/plab I drive.
+4. At this stage you should have:
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/componentsandpcb.jpg)
+5. Place resistors in corresponding locations:
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
+6. Solder resistors from both sides:
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_140400209.jpg)
+00. Trim and keep leads (hold onto them while cutting to not allow them to become projectiles)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+7. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_141317414.jpg)
+8. Solder vias and trim them.
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142532243_HDR.jpg)
+00. Place MOSFETS
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+00. Solder MOSFETS
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+9. place LED.
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg)
+00. Solder LED
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+10. Place and solder sockets, place header and solder only where necessary.
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
+11. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
+[SenseHatTester](https://github.com/vladporcila/SenseHatTester)
+12. Use coreldraw and laser cutter to create a case guide from plab bb.
+13. Tap holes.
+14. Mount device
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+
+### Student Friendly Sense Hat Test Code
+
+http://munro.humber.ca/~mdrk0011/projects/cribpi.php#Section_3
+
+
+### Student Raspberry Pi Image Creation
 
 Building the Humber image for the Sense Hat:
 
@@ -127,12 +231,6 @@ dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 roo
     1.  Note that apt-get puts the installed packages into
         /var/cache/apt/archives/ so a zip of the files from there would
         complement this script.
-
-### Humber sense hat
-
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.pcb.jpg)
-
-[Student kit assembly guide](https://github.com/six0four/ceng317/blob/master/electronics/README.md)
 
 ### Enterprise Wi-Fi
 
