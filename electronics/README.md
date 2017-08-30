@@ -26,7 +26,7 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 
 4.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
 
-    -   BME280 <https://www.sparkfun.com/products/13676>
+    -   BME280 <https://www.sparkfun.com/products/13676>
 
 	-   One optional surface mount resistor. 
 	
