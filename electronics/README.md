@@ -99,9 +99,11 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 10. Place and solder sockets, place header and solder only where necessary.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
 11. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
+[SenseHatTester](https://github.com/vladporcila/SenseHatTester)
 12. Use coreldraw and laser cutter to create a case guide from plab bb.
 13. Tap holes.
 14. Mount device
+![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
 
 ### Student Friendly Sense Hat Test Code
 
