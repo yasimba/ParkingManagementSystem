@@ -114,11 +114,6 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 14. Mount device
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
 
-### Student Friendly Sense Hat Test Code
-
-http://munro.humber.ca/~mdrk0011/projects/cribpi.php#Section_3
-
-
 ### Student Raspberry Pi Image Creation
 
 Building the Humber image for the Sense Hat:
@@ -231,6 +226,10 @@ dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 roo
     1.  Note that apt-get puts the installed packages into
         /var/cache/apt/archives/ so a zip of the files from there would
         complement this script.
+
+### Student Friendly Sense Hat Test Code
+
+http://munro.humber.ca/~mdrk0011/projects/cribpi.php#Section_3
 
 ### Enterprise Wi-Fi
 
