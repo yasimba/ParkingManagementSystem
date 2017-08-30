@@ -65,7 +65,7 @@ Building the Humber image for the Sense Hat:
     5.  sudo apt-get install pistore glgtoolkit xrdp wiringPi xrdp vim
         libx11-dev libxpm-dev \\  
         xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
-        fontconfig-config  \\ fontconfig filezilla buildessential
+        fontconfig-config \\ fontconfig filezilla buildessential
         libfreeimage-dev libopenal-dev libpango1.0-dev \\  
         libsndfile-dev libudev-dev libasound2-dev libjpeg8-dev libtiff5-dev
         libwebp-dev \\  
@@ -73,34 +73,34 @@ Building the Humber image for the Sense Hat:
         mysql-server \\  
         php5-mysql php5-curl vim-gtk scrot wgets git-core xscreensaver
         libreoffice clamav \\  
-        joomla –y
+        joomla -y
 
 the above needs to be revisted since the following packages that cannot be
 found:
 
-  pistore
+ pistore
 
-  glgtoolkit
+ glgtoolkit
 
-  jpeg
+ jpeg
 
-  jpeg-dev
+ jpeg-dev
 
-  Xp
+ Xp
 
-  Xp-dev
+ Xp-dev
 
-  Libjpeg
+ Libjpeg
 
-   fontconfig
+ fontconfig
 
-  buildessential
+ buildessential
 
-  8dl-2
+ 8dl-2
 
-  wgets
+ wgets
 
-  joomla
+ joomla
 
 For the Broadcom Development Platforms available from the parts crib /etc/xrdp/xrdp.ini has the username and password set as per:
  [xrdp1]
