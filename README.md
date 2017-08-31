@@ -8,13 +8,13 @@
 3. [Student Sense Hat Test Code](#student-sense-hat-test-code)
 4. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/previous/HSHV4-studentversion.pcb.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/SSHV05.jpg)
 
 ### Student Sense Hat Specifications
 
-NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped).
+NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV04.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped).
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/kitbag.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/kitbag.jpg)
 
 1.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
     <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
@@ -43,33 +43,33 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 
 3.  Breadboarding area
 
-![Image of Crib Pi](https://raw.githubusercontent.com/six0four/ceng317/master/images/cribpionly.jpg)
+![Image of Crib Pi](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/cribpionly.jpg)
 
 ### Student Sense Hat Electronic Design Files
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.pcb.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/HSHV4-studentversion.pcb.jpg)
 
-1.  The Fritzing file is available here: https://github.com/six0four/ceng317/tree/master/electronics/StudentSenseHatV04.fzz
+1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV04.fzz
 2.  It has a breadboard view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_bb.jpg)
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV04_bb.jpg)
 3.  It has a schematic view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_schem.jpg)
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV04_schem.jpg)
 4.  It has a PCB view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/ceng317/master/electronics/StudentSenseHatV04_pcb.jpg)
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV04_pcb.jpg)
 5.  Top of prototype PCB:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbtop.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/pcbtop.jpg)
 6.  Bottom of prototype PCB:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/pcbbot.jpg)
-7.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/ceng317/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
-7.  As well as Gerber files: [RS-274X](https://github.com/six0four/ceng317/blob/master/electronics/Gerber_RS-274X).
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/pcbbot.jpg)
+7.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
+7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
 
 ### Student Sense Hat Assembly
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/HSHV4-studentversion.pcb.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/HSHV4-studentversion.pcb.jpg)
 
 1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
 2. Work through as much of this set of instructions as possible. (Feel free to drop through the prototype lab in J233 for additional guidance both before and after class.)
-![Prototype Lab](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170616_184112490_HDR.jpg)
+![Prototype Lab](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170616_184112490_HDR.jpg)
 3. For additional soldering guidance such as surface mount and desoldering:
 	1. Watch some [YouTube Videos](https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz)).
 	2. Be sure to wear safety glasses and consult an expert regarding safety, you can even start at your [local hackerspace](https://wiki.hackerspaces.org/List_of_Hackerspaces) (Ideally working towards IPC J-STD-001 Requirements for Soldered Electrical and Electronic Assemblies).
@@ -81,37 +81,37 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
 8. When soldering move the extraction arm flow control towards the straight through symbol as it is in the photo below.
 9. The sponge in the soldering station can be moistened at the sink in J233. 
 1. Start with compoents kit: (optional: try out your kit on your breadboard)
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/components.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/components.jpg)
 2. Create schematic
 3. Create board add photos of equipment and guide from 555 timer/prototype lab bb/plab I drive.
 4. At this stage you should have:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/componentsandpcb.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/componentsandpcb.jpg)
 5. Place resistors in corresponding locations:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_133520903.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_133520903.jpg)
 6. Solder resistors from both sides:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_140400209.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_140400209.jpg)
 00. Trim and keep leads (hold onto them while cutting to not allow them to become projectiles)
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 7. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_141317414.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_141317414.jpg)
 8. Solder vias and trim them.
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142532243_HDR.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_142532243_HDR.jpg)
 00. Place MOSFETS
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 00. Solder MOSFETS
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 9. place LED.
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_142956499.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_142956499.jpg)
 00. Solder LED
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 10. Place and solder sockets, place header and solder only where necessary.
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170518_144357920_HDR.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_144357920_HDR.jpg)
 11. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
 [SenseHatTester](https://github.com/vladporcila/SenseHatTester)
 12. Use coreldraw and laser cutter to create a case guide from plab bb.
 13. Tap holes.
 14. Mount device
-![Image of Prototype](https://raw.githubusercontent.com/six0four/ceng317/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 
 ### Student Raspberry Pi Image Creation
 
@@ -132,8 +132,8 @@ Building the Humber image for the Sense Hat:
 
 5.  Open a terminal and type:
 	```
-	git clone https://github.com/six0four/ceng317.git
-	cd ceng317/firmware
+	git clone https://github.com/six0four/StudentSenseHat.git
+	cd StudentSenseHat/firmware
 	gcc -Wall -o traffic2B traffic2B.c -lwiringPi
 	sudo ./traffic2B
 	```
