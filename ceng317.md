@@ -42,6 +42,7 @@ Picture to be updated with Student Sense Hat instead of Crib version. Firebase, 
 - [ ] De-bouncing reed switch.
 - [ ] Emulate a keyboard.
 - [ ] Playback sound.
+- [ ] [FM Radio Data Service and Radio Broadcast Data Service](https://www.sparkfun.com/products/12938).
 - [ ] Shift register, multiplexer.
 - [ ] RS232
 - [ ] RS485.
