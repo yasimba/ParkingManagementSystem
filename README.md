@@ -12,9 +12,11 @@
 
 ### Student Sense Hat Specifications
 
-NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV04.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped).
+NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped).
 
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/kitbag.jpg)
+
+For a list of materials please download the [Excel](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05_bom.xlsx) file in the repository.
 
 1.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
     <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
@@ -24,8 +26,6 @@ NOTE: This mostly through hole design is pin compatible with original mostly sur
     , Creatron
 
 3.  1 bidirectional LED
-
-###### To be added
 
 4.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
 
