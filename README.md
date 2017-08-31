@@ -8,7 +8,7 @@
 3. [Student Sense Hat Test Code](#student-sense-hat-test-code)
 4. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/SSHV05.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/SSHrev05.jpg)
 
 ### Student Sense Hat Specifications
 
