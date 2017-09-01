@@ -95,7 +95,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 7. Bend the leads to hold them in place.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/07.jpg)
 8. Solder the resistors from the bottom.  
-![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/08.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/08.jpg)  
 9. Add flux if having trouble but, do not depress the end of the flux pen, just touching it is enough.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/09.jpg)
 10. Solder the resistors from the top.  
