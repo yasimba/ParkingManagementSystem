@@ -12,26 +12,28 @@
 
 ### Student Sense Hat Specifications
 
-NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped).
+NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped). Once you have recieved your PCB the kit looks something like the following photo.
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/kitbag.jpg)
+![Kit Bag](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/kitbag.jpg)
 
 For a list of materials please download the [Excel](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05_bom.xlsx) file in the repository.
 
-1.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
+The more interesting components consist of:
+
+1.  1 bidirectional LED
+
+2.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
     <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
 
-2.  4 channel 8 bit a/d, 1 channel d/a PCF8591T I2C-Bus D/A CONVERTER
+3.  4 channel 8 bit a/d, 1 channel d/a PCF8591T I2C-Bus D/A CONVERTER
     <http://www.modmypi.com/raspberry-pi/breakout-boards/seeed/raspberry-pi-adda-expansion-board>
-    , Creatron
-
-3.  1 bidirectional LED
+    https://www.creatroninc.com/product/pcf8591-8-bit-i2c-adc-dac/
 
 4.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
 
     -   BME280 <https://www.sparkfun.com/products/13676>
 
-	-   One optional surface mount resistor. 
+5.  One optional surface mount resistor. 
 	
 ###### Additional items that are only added to those devices in the Humber Parts Crib
 
@@ -47,8 +49,6 @@ For a list of materials please download the [Excel](https://github.com/six0four/
 
 ### Student Sense Hat Electronic Design Files
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/bbphoto.jpg)
-
 1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV05.fzz
 2.  It has a breadboard view:
 ![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_bb.jpg)
@@ -60,8 +60,6 @@ For a list of materials please download the [Excel](https://github.com/six0four/
 7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
 
 ### Student Sense Hat Assembly
-
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/HSHV4-studentversion.pcb.jpg)
 
 1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
 2. Work through as much of this set of instructions as possible. (Feel free to drop through the prototype lab in J233 for additional guidance both before and after class.)
