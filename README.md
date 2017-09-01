@@ -78,11 +78,11 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 7. Also note the under desk grounding strap jack for wrist straps - Electronics (ELIC) students must buy the $4.99 wrist straps while both CENG and ELIC students are to have the $4.99 safety glasses.
 8. When soldering move the extraction arm flow control towards the straight through symbol as it is in the photo below.
 9. The sponge in the soldering station can be moistened at the sink in J233. 
-1. Start with compoents kit:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/componentkit.jpg)
+1. Start with components kit:  
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/componentskit.jpg)
 1. Optional: try out your kit on your breadboard.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/bbphoto.jpg)
-2. Create schematic
+2. Create schematic.
 3. Create board add photos of equipment and guide from 555 timer/prototype lab bb/plab I drive.
 4. At this stage you should have:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/componentsandpcb.jpg)
@@ -92,16 +92,13 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/02.jpg)
 6. Place resistors in corresponding locations:
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/06.jpg)
-7. Bend the leads to hold them in place.
-
+7. Bend the leads to hold them in place.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/07.jpg)
-8. Solder the resistors from the bottom.
-
+8. Solder the resistors from the bottom.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/08.jpg)
 9. Add flux if having trouble but, do not depress the end of the flux pen, just touching it is enough.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/09.jpg)
-10. Solder the resistors from the top.
-
+10. Solder the resistors from the top.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/10.jpg)
 11. Trim and keep excess leads (hold onto them while cutting to not allow them to become projectiles).
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/11.jpg)
@@ -109,8 +106,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/12.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/13.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/14.jpg)
-15. Solder vias.
-
+15. Solder vias.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/15.jpg)
 16. Trim the excess via leads.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/16.jpg)
@@ -124,8 +120,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/21.jpg)
 22. Solder the third  pin of each MOSFET only from bottom side.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/22.jpg)
-23. Trim the MOSFET leads and make sure that none of them have solder bridges. (Note that the LED has shifted agianst the PCB here.)
-
+23. Trim the MOSFET leads and make sure that none of them have solder bridges. (Note that the LED has shifted agianst the PCB here.)  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/23.jpg)
 24. Make sure the LED is away from the PCB.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/24.jpg)
@@ -133,8 +128,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/25.jpg)
 26. Trim the excess LED leads and use for any remaining vias.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/26.jpg)
-27. Place sockets.
-
+27. Place sockets.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/27.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/28.jpg)
 28. Solder sockets, no lead trimming is necessary.
@@ -153,11 +147,9 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/35.jpg)
 36. Continue to alternate reheating the ends to make it flush with the board.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/36.jpg)
-37. Place the stackable header into place.
-
+37. Place the stackable header into place.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/37.jpg)
-38. Solder only where necessary.
-
+38. Solder only where necessary.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/38.jpg)
 39. Place the breakout board modules into their appropriate sockets adding headers as necessary.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/39.jpg)
@@ -166,8 +158,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 [SenseHatTester](https://github.com/vladporcila/SenseHatTester)
 12. Use coreldraw and laser cutter to create a case guide from plab bb.
 13. Tap holes.
-14. Mount device.
-
+14. Mount device.  
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/corelcase.jpg)
 
 ### Student Raspberry Pi Image Creation
