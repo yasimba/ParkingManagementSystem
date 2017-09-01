@@ -82,6 +82,7 @@ For a list of materials please download the [Excel](https://github.com/six0four/
 9. The sponge in the soldering station can be moistened at the sink in J233. 
 1. Start with compoents kit: (optional: try out your kit on your breadboard)
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/components.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/01.jpg)
 2. Create schematic
 3. Create board add photos of equipment and guide from 555 timer/prototype lab bb/plab I drive.
 4. At this stage you should have:
@@ -91,27 +92,73 @@ For a list of materials please download the [Excel](https://github.com/six0four/
 6. Solder resistors from both sides:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_140400209.jpg)
 00. Trim and keep leads (hold onto them while cutting to not allow them to become projectiles)
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/bbphoto.jpg)
 7. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_141317414.jpg)
 8. Solder vias and trim them.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_142532243_HDR.jpg)
 00. Place MOSFETS
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/02.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/05.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/06.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/07.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/08.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/09.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/10.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/11.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/12.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/13.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/14.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/15.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/16.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/17.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/18.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/19.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/20.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/21.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/22.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/23.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/24.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/25.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/26.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/27.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/28.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/29.jpg)
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/30.jpg)
 00. Solder MOSFETS
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 9. place LED.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_142956499.jpg)
 00. Solder LED
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
 10. Place and solder sockets, place header and solder only where necessary.
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_144357920_HDR.jpg)
+
+30. If you soldered the through hole 1kΩ resistor into place then skip past the surface mount resistor steps. Else, if you did not solder the through hole 1kΩ resistor then remove surface mount resistor from its packaging.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/04.jpg)
+31. Note that the packaging may look empty from the back.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/03.jpg)
+32. Place a little bit of solder onto each of the pads, in this photo there is probably a little bit too much.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/31.jpg)
+33. Hold the suface mount resistor with tweezers and heat one end of the resistor with the soldering iron.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/33.jpg)
+34. It should now look something like this.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/34.jpg)
+35. Heat the other end of the resistor with the soldering iron so that it looks like the next photo.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/35.jpg)
+36. Continue to alternate reheating the ends to make it flush with the board.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/36.jpg)
+37. Place the stackable header into place.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/37.jpg)
+38. Solder only where necessary.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/38.jpg)
+39. Place the breakout board modules into their appropriate sockets adding headers as necessary.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/39.jpg)
+40. Be sure to clean up your workstation with the brush and dustpan.
 11. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
 [SenseHatTester](https://github.com/vladporcila/SenseHatTester)
 12. Use coreldraw and laser cutter to create a case guide from plab bb.
 13. Tap holes.
 14. Mount device
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170828_161823343.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/bbphoto.jpg)
 
 ### Student Raspberry Pi Image Creation
 
@@ -123,7 +170,7 @@ Building the Humber image for the Sense Hat:
 2.  Download and unzip 
 	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-08-17/2017-08-16-raspbian-stretch.zip
  
-3.  Use http://sourceforge.net/projects/win32diskimager/ to write 2017-08-16-raspbian-stretch.img on to the card.
+3.  Use http://sourceforge.net/projects/win32diskimager/ or [Rufus](http://www.alanlay.com/blog/2014/6/8/raspberry-pi) to write 2017-08-16-raspbian-stretch.img on to the card.
 
 4.  Alternatively you can use download, unzip, and copy the folder contents of
     http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-08-17/NOOBS_v2_4_3.zip
