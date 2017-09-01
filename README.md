@@ -53,13 +53,13 @@ The more interesting components consist of:
 2.  It has a breadboard view:
 ![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_bb.jpg)
 Following the [best practices](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution#Examples_of_attribution):
-This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0]( http://creativecommons.org/licenses/by-sa/3.0/).
+This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 3.  It has a schematic view:
 ![Image of schematic view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_schem.jpg)
-This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0]( http://creativecommons.org/licenses/by-sa/3.0/).
+This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 4.  It has a PCB view:
 ![Image of PCB view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_pcb.jpg)
-This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0]( http://creativecommons.org/licenses/by-sa/3.0/).
+This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 6.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
 7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
 
@@ -89,48 +89,49 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/05.jpg)
 6. Or whether you will be going with the through hole resistor.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/02.jpg)
-5. Place resistors in corresponding locations:
+6. Place resistors in corresponding locations:
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/06.jpg)
-6. 
-6. Solder resistors from both sides:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_140400209.jpg)
-00. Trim and keep leads (hold onto them while cutting to not allow them to become projectiles)
-7. Place via wires (can be stripped solid core wire or just leftover cut off resistor/LED leads) in corresponding locations:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_141317414.jpg)
-8. Solder vias and trim them.
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_142532243_HDR.jpg)
-00. Place MOSFETS
+7. Bend the leads to hold them in place. 
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/07.jpg)
+8. Solder the resistors from the bottom.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/08.jpg)
+9. Add flux if having trouble but, do not depress the end of the flux pen, just touching it is enough.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/09.jpg)
+10. Solder the resistors from the top.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/10.jpg)
+11. Trim and keep excess leads (hold onto them while cutting to not allow them to become projectiles).
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/11.jpg)
+7. Place via wires (can be stripped solid core wire or just leftover cut off resistor/LED leads) in corresponding locations:
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/12.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/13.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/14.jpg)
+15. Solder vias. 
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/15.jpg)
+16. Trim the excess via leads.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/16.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/17.jpg)
+18. Place MOSFETS and LED (N.B. the LED's longer leg is the same as on a red LED. Thus, when oriented the same way as the fritzing diagrams the red/green will be the opposite of those in the parts crib. Which way you put it is in your hands.)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/18.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/19.jpg)
+20. Solder one pin of each MOSFET only from bottom side, semiconductor devices are heat sensitive.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/20.jpg)
+21. Solder another pin of each MOSFET only from bottom side.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/21.jpg)
+22. Solder the third  pin of each MOSFET only from bottom side.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/22.jpg)
+23. Trim the MOSFET leads and make sure that none of them have solder bridges. (Note that the LED has shifted agianst the PCB here.)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/23.jpg)
+24. Make sure the LED is away from the PCB.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/24.jpg)
+25. Solder the LED only from the top side, semiconductor devices are heat sensitive.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/25.jpg)
+26. Trim the excess LED leads and use for any remaining vias.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/26.jpg)
+27. Place sockets.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/27.jpg)
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/28.jpg)
+28. Solder sockets, no lead trimming is necessary.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/29.jpg)
-![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/30.jpg)
-00. Solder MOSFETS
-9. place LED.
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_142956499.jpg)
-00. Solder LED
-10. Place and solder sockets, place header and solder only where necessary.
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_144357920_HDR.jpg)
-
 30. If you soldered the through hole 1kΩ resistor into place then skip past the surface mount resistor steps. Else, if you did not solder the through hole 1kΩ resistor then remove surface mount resistor from its packaging.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/04.jpg)
 31. Note that the packaging may look empty from the back.
