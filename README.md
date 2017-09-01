@@ -47,20 +47,16 @@ For a list of materials please download the [Excel](https://github.com/six0four/
 
 ### Student Sense Hat Electronic Design Files
 
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/HSHV4-studentversion.pcb.jpg)
+![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/bbphoto.jpg)
 
-1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV04.fzz
+1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV05.fzz
 2.  It has a breadboard view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV04_bb.jpg)
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_bb.jpg)
 3.  It has a schematic view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV04_schem.jpg)
+![Image of schematic view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_schem.jpg)
 4.  It has a PCB view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV04_pcb.jpg)
-5.  Top of prototype PCB:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/pcbtop.jpg)
-6.  Bottom of prototype PCB:
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/pcbbot.jpg)
-7.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
+![Image of PCB view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_pcb.jpg)
+6.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV04_bom.xlsx).
 7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
 
 ### Student Sense Hat Assembly
@@ -92,7 +88,6 @@ For a list of materials please download the [Excel](https://github.com/six0four/
 6. Solder resistors from both sides:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_140400209.jpg)
 00. Trim and keep leads (hold onto them while cutting to not allow them to become projectiles)
-![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/bbphoto.jpg)
 7. Place via wires (can be stripped solid core wire or just leftover cut off resistor leads) in corresponding locations:
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/IMG_20170518_141317414.jpg)
 8. Solder vias and trim them.
