@@ -13,15 +13,22 @@
     <li>Regarding CENG 317 Hardware Production Technology, a Broadcom development platform will be used by each student who will connect a sensor or effector unit to it. The goal is to scale the hardware to include multiple units and package it to fit in a suitable enclosure that fits within the overall project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x 7.25cm) which represents the space below the tray in the parts kit. The highest AC voltage that will be used is 16Vrms from a wall adaptor from which +/- 15V or as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.</li>
 <img src="https://raw.githubusercontent.com/six0four/MicroRover/master/images/1.2pinetworkarchitecture.jpg">
 <li>We work with prototypes and prototypes are not to be left powered unattended.</li>
-	<li>Each student will decide on a sensor or actuator
-start by soldering together a sensor hat (parts provided from J233) for a raspberry pi 3 (that you purchase) to get started with our hardware projects. The kits should be available in J233 soon (hours posted outside the door) to get started before the term starts if you like. Here are some videos on soldering: https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz be sure to get Kelly and Vlad’s input on how to solder safely in J233. More importantly, J233 is not especially busy right now so you can work with Kelly and/or Vlad to use http://fritzing.org to change Your Name to your own name on the Printed Circuit Board files for the sensor hat and get your PCB laser etched. I have included a simple program that should blink the LED.</li>
+	<li>Each student will decide on a sensor or actuator and be aware that many breakout boards have fixed I2C addresses so adding a second one may take some work. Start by soldering together a sensor hat (parts provided from J233) for a raspberry pi 3 (that you purchase) to get started with our hardware projects. The kits should be available in J233 soon (hours posted outside the door) to get started before the term starts if you like. Here are some videos on soldering: https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz be sure to get Kelly and Vlad’s input on how to solder safely in J233. More importantly, J233 is not especially busy right now so you can work with Kelly and/or Vlad to use http://fritzing.org to change Your Name to your own name on the Printed Circuit Board files for the sensor hat and get your PCB laser etched. I have included a simple program that should blink the LED.</li>
+
+Possible sensor and effector choices to become the class expert on (including calibration) are below. Next semester we will have some components available from Wurth but, in the meantime and especially for breakout boards, <a href="https://www.amazon.ca/s/ref=sr_pg_3?me=A24R2LP8QLFIE1&rh=k%3Araspberry">SunFounder's Canadian Storefront on Amazon is an option</a> for example: <a href="https://www.amazon.ca/SunFounder-Sensor-Kit-Raspberry-Extension/dp/B00P66XRNK/">SunFounder 37 Modules Sensor Kit</a>,
+<a href="https://www.amazon.ca/SunFounder-Modules-Sensor-Raspberry-Extension/dp/B014PF05ZA/">SunFounder 37 Modules Sensor Kit V2.0</a>, and <a href="https://www.amazon.ca/Sunfounder-Project-Raspberry-Extension-7-Segment/dp/B00P2E9W30/">SunFounder Project Super Starter Kit w/ 40-Pin GPIO Extension Board</a>.
     <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Sensor or effector has been selected by somebody.</li>
     <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Sensor or effector available for selection.</li>
-Possible sensor and effector choices to become the class expert on including calibration:
-     <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Sensor or effector has been selected by somebody.
-</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Sensor or effector available for selection.
-</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> nRF24L01.
+    <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> nRF24L01.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MQ3.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> MQ2: <a href="https://www.amazon.ca/SunFounder-Sensor-Module-Arduino-Raspberry/dp/B013G8A76E/">SunfounderCA MQ-2</a>
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Laser time-of-flight sensor: <a href="https://www.adafruit.com/product/3316">Adafruit VL6180</a>.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> FM Radio Data Service and Radio Broadcast Data Service: <a href="https://www.sparkfun.com/products/12938">Sparkfun Si4703</a>.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> D to A, PWM: <a href="https://www.amazon.ca/AD-Converter-ADC0832-SunFounder-Raspberry/dp/B013SMDGNY/">SunfounderCA ADC0832</a>.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> A to D, filters: <a href="https://www.amazon.ca/AD-Converter-ADC0832-SunFounder-Raspberry/dp/B013SMDGNY/">SunfounderCA ADC0832</a>.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Servo: <a href="https://www.amazon.ca/SunFounder-PCA9685-Channel-Arduino-Raspberry/dp/B014KTSMLA/">SunFounderCA PCA9685</a>.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Humidity: <a href="https://www.amazon.ca/SunFounder-Humiture-Sensor-Arduino-Raspberry/dp/B0154JQRPI/">SunFounderCA DHT-11</a>.
+</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Voice recognition: <a href="https://www.amazon.ca/SunFounder-Microphone-Raspberry-Recognition-Software/dp/B01KLRBHGM/">SunFounder USB 2.0 Mini Microphone</a>.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Bluetooth.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Enterprise Wi-Fi.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Ethernet remote desktop.
@@ -34,16 +41,12 @@ Possible sensor and effector choices to become the class expert on including cal
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Stepper motors (bipolar and unipolar).
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> PID feedback control, fan, thermistor, thermocouple.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Function generator.
-</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> D to A, PWM.
-</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> A to D, filters.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Solar cell, photo-resistor.
-</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Laser time-of-flight sensor [VL6180](https://www.adafruit.com/product/3316).
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Wheatstone bridge, instrumentation amplifier.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Displays.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> De-bouncing reed switch.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Emulate a keyboard.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Playback sound.
-</li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> [FM Radio Data Service and Radio Broadcast Data Service](https://www.sparkfun.com/products/12938).
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Shift register, multiplexer.
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> RS232
 </li><li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> RS485.
