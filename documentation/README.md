@@ -6,14 +6,14 @@ bibliography: RPiCitations.bib
 Internet of Things Project
 ==========================
 
-Projects website: http://six0four.github.io/
+Projects website: http://six0four.github.io/StudentSenseHat
 
 Table of Contents
 =================
 
 1.  [This File](#this-file)
 
-5.  [References (generated when this file is
+2.  [References (generated when this file is
     exported)](#references-generated-when-this-file-is-exported)
 
 This File
@@ -34,18 +34,25 @@ Table of Contents is not created in the .md file it can be generated during the
 export to .pdf process.
 
 Ctrl-Shift-R can be used for adding citations. A citation example is for the
-publication that we have referred to in our proposals where visiting the DOI link
-below provides a page where a citation can be downloaded in the BibTex format.
-This .bib bibliography file can then be added to this file. Next the style .csl
-can be downloaded from https://www.zotero.org/styles/apa [@6894583] \<- this
-will become (Segura-Garcia, Felici-Castell, Perez-Solano, Cobos, & Navarro,
-2015) plus the following entry will be added to the References when this file is
-exported to .pdf which also triggers the installation of XeLaTeX:
+publication that we have referred to in our proposals where visiting the DOI
+link below provides a page where a citation can be downloaded in the BibTex
+format. This .bib bibliography file can then be added to this file. Next the
+style .csl can be downloaded from https://www.zotero.org/styles/apa [@6894583]
+\<- this will become (Segura-Garcia, Felici-Castell, Perez-Solano, Cobos, &
+Navarro, 2015) plus the following entry will be added to the References when
+this file is exported to .pdf which also triggers the installation of XeLaTeX:
 
 Segura-Garcia, J., Felici-Castell, S., Perez-Solano, J. J., Cobos, M., &
 Navarro, J. M. (2015). Low-cost alternatives for urban noise nuisance monitoring
 using wireless sensor networks. *IEEE Sensors Journal*, *15*(2), 836–844.
 <https://doi.org/10.1109/JSEN.2014.2356342>
+
+Regarding an example for the Fall 2017 session I use the below to generate the
+content which appears in the References List when the pdf is exported.
+
+Current product APA citation: [@TouchScreen]
+
+Existing research IEEE paper APA citation:
 
 References (generated when this file is exported)
 -------------------------------------------------
