@@ -52,7 +52,7 @@ content which appears in the References List when the pdf is exported.
 
 Current product APA citation: [@TouchScreen]
 
-Existing research IEEE paper APA citation:
+Existing research IEEE paper APA citation: [@7513420]
 
 References (generated when this file is exported)
 -------------------------------------------------
