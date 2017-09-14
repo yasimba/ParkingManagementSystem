@@ -12,7 +12,7 @@
 
 ### Student Sense Hat Specifications
 
-NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped). Once you have recieved your PCB the kit looks something like the following photo.
+NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped), if curious, take a look at using the [Sparkfun Cam file](https://learn.sparkfun.com/tutorials/using-eagle-board-layout/generating-gerbers). Once you have recieved your PCB the kit looks something like the following photo.
 
 ![Kit Bag](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/kitbag.jpg)
 
