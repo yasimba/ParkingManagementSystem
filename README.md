@@ -147,6 +147,9 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/35.jpg)
 36. Continue to alternate reheating the ends to make it flush with the board.
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/36.jpg)
+37. While considering surface mount resitors, be aware that the RTC module can charge the CR2032 battery causing damage.
+    To permanently disable the charging circuit, please remove the 200 ohm surface mount resistor (board on left) near the unused I2C header by pushing it off the PCB (board on right) with a hot soldering iron.
+![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/32.jpg)
 37. Place the stackable header into place.  
 ![Prototype Assembly](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/37.jpg)
 38. Solder only where necessary.  
