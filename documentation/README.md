@@ -53,6 +53,18 @@ content which appears in the References List when the pdf is exported.
 Current product APA citation: [@TouchScreen]
 
 Existing research IEEE paper APA citation: [@7513420]
+Light Sensor [@1459018]
+Water Sensor [@5444949]
+WebCam [@6311360]
+MicroPhone [@7906891]
+Time of flight [@7590295]
+Ultrasonic sensor [@6626258]
+infra red sensor [@6626258]
+fingerprint reader [@5655244]
+RFID [@5655244]
+servo [@7345541]
+Analog Feedback Servo [@7345541]
+
 
 References (generated when this file is exported)
 -------------------------------------------------
