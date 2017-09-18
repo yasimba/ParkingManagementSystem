@@ -198,10 +198,16 @@ Building the Humber image for the Sense Hat:
 	sudo ./ghmain
 	```
 	
-5.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
+8.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
     sudo raspi-config
 
-6.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
+9.  If interested in using Microsoft Windows' built-in Remote Desktop Connection:
+	1.  sudo apt-get install -y tightvncserver
+	2.  sudo apt-get install -y xrdp
+	
+10. Otherwise, from the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set vnc to Enabled.
+	
+11. Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
 
     1.  \#!/bin/bash
 
