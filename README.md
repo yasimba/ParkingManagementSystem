@@ -201,10 +201,34 @@ Building the Humber image for the Sense Hat:
 8.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
     sudo raspi-config
 
-9.  If interested in using Microsoft Windows' built-in Remote Desktop Connection:
-	1.  sudo apt-get install -y tightvncserver
-	2.  sudo apt-get install -y xrdp
-	
+9.  If interested in using Microsoft Windows' built-in Remote Desktop Connection as per the devices in the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib:
+    ```Shell
+	sudo apt-get install -y tightvncserver
+	sudo apt-get install -y xrdp
+	```
+    For the Broadcom Development Platforms available from the parts crib /etc/xrdp/xrdp.ini has the username and password set as per:
+	```
+	[xrdp1]
+	Name=sesman-Xvnc
+	Lib=libnc.so
+	Username=pi
+	Password=raspberry
+	Ip=127.0.0.1
+	Port=-1
+	```
+	They also have the static IP set via: /boot/cmdline.txt as per:
+	```
+	dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p6 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
+	```
+	on your device you may need:
+	```
+	dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
+	```
+	or:
+	```
+	dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles ip=169.254.0.2
+	```
+
 10. Otherwise, from the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set vnc to Enabled.
 	
 11. Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
@@ -257,26 +281,9 @@ found:
 
  joomla
 
-For the Broadcom Development Platforms available from the parts crib /etc/xrdp/xrdp.ini has the username and password set as per:
- [xrdp1]
-Name=sesman-Xvnc
-Lib=libnc.so
-Username=pi
-Password=raspberry
-Ip=127.0.0.1
-Port=-1
-
-They also have the static IP set via: /boot/cmdline.txt as per:
-dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p6 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
-on your device you may need:
-dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
-or:
-dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles ip=169.254.0.2
-
-
-6.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
+12.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
 	
-1.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
+13.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
     into a file.
 
     1.  Note that apt-get puts the installed packages into
@@ -289,23 +296,24 @@ http://munro.humber.ca/~mdrk0011/projects/cribpi.php#Section_3
 
 ### Enterprise Wi-Fi
 
-Connecting to Enterprise Wi-Fi can be a challenge, please share your respective successes - here is my configuration:
+Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has come a long way from where it was, please share your respective successes in situations where the GUIs do not work - here is my configuration:
 
 1.  In /etc/network/interfaces:
-
-auto lo
-iface lo inet loopback
-iface eth0 inet dhcp
-allow-hotplug wlan0
-iface wlan0 inet manual
-wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
-iface default inet dhcp
+	```
+	auto lo
+	iface lo inet loopback
+	iface eth0 inet dhcp
+	allow-hotplug wlan0
+	iface wlan0 inet manual
+	wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+	iface default inet dhcp
+	```
 
 2.  In /etc/wpa_supplicant/wpa_supplicant.conf:
-
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-update_config=1
-network={
+	```
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	update_config=1
+	network={
         ssid="myWi-Fi@Humber"
         proto=RSN
         key_mgmt=WPA-EAP
@@ -315,7 +323,8 @@ network={
         identity="n12345678"
         password="aaaAAA12"
         phase2="auth=MSCHAPV2"
-}
+	}
+	```
 
 3.  Download Humber Certificate (For HumberSecure).cer from https://its.humber.ca/wireless/humbersecure/
 
