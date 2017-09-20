@@ -18,6 +18,7 @@
     <li>Regarding CENG 317 Hardware Production Technology, a Broadcom development platform will be used by each student who will connect a sensor or effector unit to it.
 	 The goal is to scale the hardware to include multiple units and package it to fit in a suitable enclosure that fits within the overall project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x 7.25cm)
 	 which represents the <a href="https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/week1projectbox.jpg">space</a> below the tray in the parts kit.
+	 Ideally a custom I2C PCB with a six pin stackable header will be designed for each sensor/effector.
 	 The highest AC voltage that will be used is 16Vrms from a wall adaptor from which +/- 15V or as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.</li>
     <li>We work with prototypes and prototypes are not to be left powered unattended.</li>
     <li>A Student Sense Hat kit will be provided to each CENG capstone project student to build for the Broadcom development platform that they purchase.</li>
@@ -41,13 +42,7 @@ href="https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWB
 	 for example: <a href="https://www.amazon.ca/SunFounder-Sensor-Kit-Raspberry-Extension/dp/B00P66XRNK/">SunFounder 37 Modules Sensor Kit</a>,
      <a href="https://www.amazon.ca/SunFounder-Modules-Sensor-Raspberry-Extension/dp/B014PF05ZA/">SunFounder 37 Modules Sensor Kit V2.0</a>,
      and <a href="https://www.amazon.ca/Sunfounder-Project-Raspberry-Extension-7-Segment/dp/B00P2E9W30/">SunFounder Project Super Starter Kit w/ 40-Pin GPIO Extension Board</a>.
-	 Note that certain sensors, flame and radiation (among others), are not appropriate for testing in the lab.
-	 <ul>
-      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Sensor or effector has been selected by somebody.</li>
-      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Sensor or effector available for selection.</li>
-      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> nRF24L01.</li>
-      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MQ3.</li>
-     </ul>Friday Section:<ol>
+	 Note that certain sensors, flame and radiation (among others), are not appropriate for testing in the lab. Friday Section choices:<ol>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Time of Flight Sensor <a href="https://kbarc.github.io/SensorEffector/">Kevin</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Barcode with USB <a href="https://ifeoluwadavid.github.io/PartsCribDatabase/">David</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Side view IR phototransistor & emitter pair (Digikey 1080-1163-ND & 160-1930-ND) <a href="https://chris0707.github.io/PiRover/">Christopher</a>.</li>
@@ -66,7 +61,7 @@ href="https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWB
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> iRobotCreate <a href="https://github.com/kylesyCENG317/Robotic-Vacuum-and-Floor-Scrubber">Kyle</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Lumi Light <a href="https://kenvit.github.io/">Kenneth</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> DMX <a href="https://github.com/TheKeme/KemeRepository">Heakeme</a>.</li>
-     </ol>Monday Section:<ol>
+     </ol>Monday Section choices:<ol>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> OpenCV cam <a href="https://github.com/goziethelegion/Legion">Chigozie</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Barcode without USB <a href="https://github.com/TosinAjayi">Oluwatosin</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> DC motor <a href="https://github.com/YohaanA/DCMotor">Yohaan</a>.</li>
@@ -98,7 +93,11 @@ href="https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWB
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Magnetic Contact Switch <a href="https://github.com/n01147386">Karel</a>.</li>
 	  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> QR code reader part number? <a href="https://vinou.github.io/Bar-QR-code-scanners/">Vinokkumar</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> current transducer <a href="https://github.com/ericzlmd/MyHardwareProject">Eric</a>.</li>
-     </ol>Remaining sensor/effector choices:<ol>
+     </ol>Updated sensor/effector choices:<ol>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Sensor or effector has been selected by somebody.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Sensor or effector available for selection.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> nRF24L01.</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MQ3.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Laser time-of-flight sensor: <a href="https://www.adafruit.com/product/3316">Adafruit VL6180</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> FM Radio Data Service and Radio Broadcast Data Service: <a href="https://www.sparkfun.com/products/12938">Sparkfun Si4703</a>.</li>
       <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Servo: <a href="https://www.amazon.ca/SunFounder-PCA9685-Channel-Arduino-Raspberry/dp/B014KTSMLA/">SunFounderCA PCA9685</a>.</li>
