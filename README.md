@@ -159,7 +159,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 40. Be sure to clean up your workstation with the brush and dustpan.
 11. Test assembled hat on Vlad's test fixture (and ideally following IPC-A-610 Acceptability of Electronics Assemblies).
 [SenseHatTester](https://github.com/vladporcila/SenseHatTester)
-12. Use coreldraw and laser cutter to create a case guide from plab bb.
+12. Use [CorelDRAW X6](https://github.com/vladporcila/CorelDrawProjects/blob/master/Rpi%20Base%20plate.cdr) and laser cutter to create a case guide from plab bb.
 13. Tap holes.
 14. Mount device.  
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/corelcase.jpg)
