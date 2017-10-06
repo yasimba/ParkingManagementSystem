@@ -26,7 +26,6 @@ libapache2-mod-php \
 libjpeg-dev \
 libx11-dev libxpm-dev \
 libxp-dev libxmu-dev \
-libwebp-dev \
 libfreeimage-dev libopenal-dev libpango1.0-dev \
 libsndfile1-dev libtiff5-dev libwebp-dev libturbojpeg-dev fbi \
 libudev-dev libasound2-dev -y
