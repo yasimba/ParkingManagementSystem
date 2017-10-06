@@ -22,7 +22,7 @@ apache2 \
 mysql-server mysql-client \
 php php-imap \
 php-mysql php-curl php-gd php-json php-mcrypt php-opcache php-xmlrpc \
-libbapache2-mod-php \
+libapache2-mod-php \
 libjpeg-dev \
 libx11-dev libxpm-dev \
 libxp-dev libxmu-dev \
