@@ -20,7 +20,7 @@ xorg \
 xscreensaver \
 apache2 \
 mysql-server mysql-client \
-php5 php5-mysql php5-curl phpmyadmin \
+php5 php5-mysql php5-curl \
 libjpeg8-dev \
 libx11-dev libxpm-dev \
 LibXp-dev \
