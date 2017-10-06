@@ -20,15 +20,15 @@ xorg xorg-dev \
 xscreensaver \
 apache2 \
 mysql-server mysql-client \
-php php-imap\
-php-mysql php-curl php-gd php-json php-mcrypt php-opcache php-xmlrpc\
+php php-imap \
+php-mysql php-curl php-gd php-json php-mcrypt php-opcache php-xmlrpc \
 libbapache2-mod-php \
 libjpeg-dev \
 libx11-dev libxpm-dev \
 libxp-dev libxmu-dev \
 libwebp-dev \
 libfreeimage-dev libopenal-dev libpango1.0-dev \
-libsndfile1-dev libtiff5-dev libwep-dev libturbojpeg-dev fbi \
+libsndfile1-dev libtiff5-dev libwebp-dev libturbojpeg-dev fbi \
 libudev-dev libasound2-dev -y
 wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz \
 -O /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz
