@@ -16,21 +16,24 @@ clamav \
 filezilla \
 git-core \
 gparted \
-xorg \
+xorg xorg-dev \
 xscreensaver \
 apache2 \
 mysql-server mysql-client \
-php5 php5-mysql php5-curl \
-libjpeg8-dev \
+php php-imap\
+php-mysql php-curl php-gd php-json php-mcrypt php-opcache php-xmlrpc\
+libbapache2-mod-php \
+libjpeg-dev \
 libx11-dev libxpm-dev \
-LibXp-dev \
+libxp-dev libxmu-dev \
 libwebp-dev \
 libfreeimage-dev libopenal-dev libpango1.0-dev \
-libsndfile1-dev \
+libsndfile1-dev libtiff5-dev libwep-dev libturbojpeg-dev fbi \
 libudev-dev libasound2-dev -y
-wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz
+wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz \
+-O /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz
 gunzip /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz 
-sudo tar xvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
+sudo tar zxvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
 wget https://download.zerotier.com/zerotier-one-armhf.deb
 sudo dpkg --install zerotier-one-armhf.deb
 echo finished script

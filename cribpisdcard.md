@@ -20,19 +20,24 @@ Building the Humber image for the Sense Hat:
     ```Shell
 	sudo raspi-config  
 	```
+	(4. Localisation Options->I3 Change Keyboard layout->Generic 104-key PC->Other->English (US)->English (US)->The default for the keyboard layout->No compose key->No)
 	(Also enable ssh'ing under Interfacing Options, and make sure you change your device's password)  
 
 5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:  
 	```Shell
 	wget https://raw.githubusercontent.com/six0four/StudentSenseHat/master/firmware/hshcribv01.sh \  
 	-O /home/pi/hshcribv01.sh  
-	chmod u+x hshcribv01.sh  
-	./hshcribv01.sh  
+	chmod u+x /home/pi/hshcribv01.sh  
+	/home/pi/hshcribv01.sh  
 	```
 	
 6.  You should consider setting the mysql password by using
 	```Shell
 	mysqladmin -u root password mysecretpasswordgoeshere
+	```
+7.  You can test the GLG toolkit by running:
+	```Shell
+	./RUN_DEMOS_NO_OPENGL
 	```
 
 8.  If interested in using Microsoft Windows' built-in Remote Desktop Connection as per the devices in the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib:
