@@ -17,7 +17,9 @@ Building the Humber image for the Sense Hat:
     step.
 
 4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command:  
-    sudo raspi-config  
+    ```Shell
+	sudo raspi-config  
+	```
 	(Also enable ssh'ing under Interfacing Options, and make sure you change your device's password)  
 
 5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:  
