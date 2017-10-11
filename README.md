@@ -4,8 +4,7 @@
 1. [Student Sense Hat Specifications](#student-sense-hat-specifications)
 2. [Student Sense Hat Electronic Design Files](#student-sense-hat-electronic-design-files)
 2. [Student Sense Hat Assembly](#student-sense-hat-assembly)
-3. [Student Raspberry Pi Image Creation](#student-raspberry-pi-image-creation)
-3. [Student Sense Hat Test Code](#student-sense-hat-test-code)
+3. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
 4. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/SSHrev05.jpg)
@@ -165,22 +164,11 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 51. Mount device.  
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/corelcase.jpg)
 
-### Student Raspberry Pi Image Creation
+### Student Raspberry Pi Image Creation and Test Code
 
-Building the Humber image for the Sense Hat:
-
-1.  Format an at least class 10 minimum of 8GB SD card with:
-    <https://www.sdcard.org/downloads/formatter_4/index.html>
-
-2.  Download and unzip 
-	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-08-17/2017-08-16-raspbian-stretch.zip
- 
-3.  Use http://sourceforge.net/projects/win32diskimager/ or [Rufus](http://www.alanlay.com/blog/2014/6/8/raspberry-pi) to write 2017-08-16-raspbian-stretch.img on to the card.
-
-4.  Alternatively you can use download, unzip, and copy the folder contents of
-    http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-08-17/NOOBS_v2_4_3.zip
-    into the root directory of the SD card which, after the first boot, has a similar result to the above
-    steps.
+1.	Building the Humber image for the Sense Hat: [https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md](https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md) Note that apt-get puts the installed packages into
+        /var/cache/apt/archives/ so a zip of the files from there would
+        complement the script used by these instructions.
 
 5.  Open a terminal and type:
 	```
@@ -198,102 +186,12 @@ Building the Humber image for the Sense Hat:
 	make
 	sudo ./ghmain
 	```
+	write to your blog what happens.
+
+8.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
 	
-8.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command
-    sudo raspi-config
-
-9.  If interested in using Microsoft Windows' built-in Remote Desktop Connection as per the devices in the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib:
-    ```Shell
-	sudo apt-get install -y tightvncserver
-	sudo apt-get install -y xrdp
-	```
-    For the Broadcom Development Platforms available from the parts crib /etc/xrdp/xrdp.ini has the username and password set as per:
-	```
-	[xrdp1]
-	Name=sesman-Xvnc
-	Lib=libnc.so
-	Username=pi
-	Password=raspberry
-	Ip=127.0.0.1
-	Port=-1
-	```
-	They also have the static IP set via: /boot/cmdline.txt as per:
-	```
-	dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p6 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
-	```
-	on your device you may need:
-	```
-	dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
-	```
-	or:
-	```
-	dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles ip=169.254.0.2
-	```
-
-10. Otherwise, from the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set vnc to Enabled.
-	
-11. Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal:
-
-    1.  \#!/bin/bash
-
-    2.  sudo apt-get update
-
-    3.  sudo apt-get upgrade
-	
-	4.  sudo apt-get purge realvnc-vnc-server
-
-    5.  sudo apt-get install pistore glgtoolkit xrdp wiringPi xrdp vim
-        libx11-dev libxpm-dev \\  
-        xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
-        fontconfig-config \\ fontconfig filezilla buildessential
-        libfreeimage-dev libopenal-dev libpango1.0-dev \\  
-        libsndfile-dev libudev-dev libasound2-dev libjpeg8-dev libtiff5-dev
-        libwebp-dev \\  
-        automake 8dl-2 codeblocks i2c-tools apache2 php5 mysql-client
-        mysql-server \\  
-        php5-mysql php5-curl vim-gtk scrot wgets git-core xscreensaver
-        libreoffice clamav \\  
-        joomla -y
-
-the above needs to be revisted since the following packages that cannot be
-found:
-
- pistore
-
- glgtoolkit
-
- jpeg
-
- jpeg-dev
-
- Xp
-
- Xp-dev
-
- Libjpeg
-
- fontconfig
-
- buildessential
-
- 8dl-2
-
- wgets
-
- joomla
-
-12.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
-	
-13.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
+9.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
     into a file.
-
-    1.  Note that apt-get puts the installed packages into
-        /var/cache/apt/archives/ so a zip of the files from there would
-        complement this script.
-
-### Student Sense Hat Test Code
-
-http://munro.humber.ca/~mdrk0011/projects/cribpi.php#Section_3
 
 ### Enterprise Wi-Fi
 

@@ -7,23 +7,24 @@ Building the Humber image for the Sense Hat:
 1.  Format an at least class 10 minimum of 8GB SD card with:
     <https://www.sdcard.org/downloads/formatter_4/index.html>
 
-2.  Use <http://sourceforge.net/projects/win32diskimager/> to write the
-    following image once unzipped on to the card:
-	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-04-10/2017-04-10-raspbian-jessie.zip
+2.  Download and unzip 
+	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-08-17/2017-08-16-raspbian-stretch.zip
+ 
+3.  Use http://sourceforge.net/projects/win32diskimager/ or [Rufus](http://www.alanlay.com/blog/2014/6/8/raspberry-pi) to write 2017-08-16-raspbian-stretch.img on to the card.
 
-3.  Alternatively you can use copy the contents of
-    https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-04-10/NOOBS_v2_4_0.zip
-    to the card which, after the first boot, has a similar result to the above
-    step.
+4.  Alternatively you can use download, unzip, and copy the folder contents of
+    http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-08-17/NOOBS_v2_4_3.zip
+    into the root directory of the SD card which, after the first boot, has a similar result to the above
+    steps.
 
-4.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command:  
+5.  Change internationalization options to the 104 key US keyboard by opening a terminal and using the command:  
     ```Shell
 	sudo raspi-config  
 	```
 	(4. Localisation Options->I3 Change Keyboard layout->Generic 104-key PC->Other->English (US)->English (US)->The default for the keyboard layout->No compose key->No)
 	(Also enable ssh'ing under Interfacing Options, and make sure you change your device's password)  
 
-5.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:  
+6.  Once you have connected to the internet via wired ethernet or Wi-Fi also use the terminal to do the following which takes a significant period of time:  
 	```Shell
 	wget https://raw.githubusercontent.com/six0four/StudentSenseHat/master/firmware/hshcribv01.sh \  
 	-O /home/pi/hshcribv01.sh  
@@ -31,16 +32,16 @@ Building the Humber image for the Sense Hat:
 	/home/pi/hshcribv01.sh  
 	```
 	
-6.  You should consider setting the mysql password by using
+7.  You should consider setting the mysql password by using
 	```Shell
 	mysqladmin -u root password mysecretpasswordgoeshere
 	```
-7.  You can test the GLG toolkit by running:
+8.  You can test the GLG toolkit by running:
 	```Shell
 	./RUN_DEMOS_NO_OPENGL
 	```
 
-8.  If interested in using Microsoft Windows' built-in Remote Desktop Connection as per the devices in the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib:
+9.  If interested in using Microsoft Windows' built-in Remote Desktop Connection as per the devices in the Humber College Institute of Technology & Advanced Learning North Campus Technology Parts Crib:
     ```Shell
 	sudo apt-get install -y tightvncserver
 	sudo apt-get install -y xrdp
@@ -68,10 +69,10 @@ Building the Humber image for the Sense Hat:
 	dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles ip=169.254.0.2
 	```
 
-9.  Otherwise, from the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set vnc to Enabled.
+10.  Otherwise, from the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set vnc to Enabled.
 
-10. I still have to work on the echo $PATH with Paul to ensure the libraries are found correctly
+11. I still have to work on the echo $PATH with Paul to ensure the libraries are found correctly
 
-11. The next curricular milestone is for students to demonstrate their ssh connections to their devices.
+12. The next curricular milestone is for students to demonstrate their ssh connections to their devices.
 
-12. Subsequently followed by a milestone for which students show their LED blinking on their ARM development platform's interface board akin to [https://six0four.github.io/StudentSenseHat/cribpi.html](https://six0four.github.io/StudentSenseHat/cribpi.html).
+13. Subsequently followed by a milestone for which students show their LED blinking on their ARM development platform's interface board akin to [https://six0four.github.io/StudentSenseHat/cribpi.html](https://six0four.github.io/StudentSenseHat/cribpi.html).
