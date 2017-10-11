@@ -166,9 +166,10 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 
 ### Student Raspberry Pi Image Creation and Test Code
 
-1.	Building the Humber image for the Sense Hat: [https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md](https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md) Note that apt-get puts the installed packages into
-        /var/cache/apt/archives/ so a zip of the files from there would
-        complement the script used by these instructions.
+1.	Building the Humber image for the Sense Hat: [https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md](https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md)  
+	Note that apt-get puts the installed packages into
+    /var/cache/apt/archives/ so a zip of the files from there would
+    complement the script used by these instructions.
 
 5.  Open a terminal and type:
 	```
