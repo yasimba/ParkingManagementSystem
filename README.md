@@ -189,9 +189,26 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 	```
 	write to your blog what happens.
 
-8.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
+8.	You can read the OS date with:
+    ```Shell
+	date
+	```
+	You can set the OS date with:
+	```Shell
+	sudo date –s “29 AUG 1997 13:00:00”
+	```
+	You can write the OS date to the RTC with:
+	```Shell
+	sudo hwclock –w
+	```
+	You can read the RTC date with:
+	```Shell
+	sudo hwclock -r
+	```
 	
-9.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
+9.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
+	
+10.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
     into a file.
 
 ### Enterprise Wi-Fi
