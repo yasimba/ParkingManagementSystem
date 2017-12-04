@@ -11,7 +11,7 @@
 
 ### Student Sense Hat Specifications
 
-NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped), if curious, take a look at using the [Sparkfun Cam file](https://learn.sparkfun.com/tutorials/using-eagle-board-layout/generating-gerbers). Once you have recieved your PCB the kit looks something like the following photo.
+NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV06.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped), if curious, take a look at using the [Sparkfun Cam file](https://learn.sparkfun.com/tutorials/using-eagle-board-layout/generating-gerbers). Once you have recieved your PCB the kit looks something like the following photo.
 
 ![Kit Bag](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/kitbag.jpg)
 
@@ -48,16 +48,16 @@ The more interesting components consist of:
 
 ### Student Sense Hat Electronic Design Files
 
-1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV05.fzz
+1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV06.fzz
 2.  It has a breadboard view:
-![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_bb.jpg)
+![Image of breadboard view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV06_bb.jpg)
 Following the [best practices](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution#Examples_of_attribution):
 This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 3.  It has a schematic view:
-![Image of schematic view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_schem.jpg)
+![Image of schematic view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV06_schem.jpg)
 This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 4.  It has a PCB view:
-![Image of PCB view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV05_pcb.jpg)
+![Image of PCB view](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/electronics/StudentSenseHatV06_pcb.jpg)
 This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://fritzing.org/), used under [CC:BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 6.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05_bom.xlsx).
 7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
