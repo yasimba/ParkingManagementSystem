@@ -243,6 +243,28 @@ Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has 
 	}
 	```
 
+	I have been told that more recently the Prototype Lab staff have said to use:
+	```
+	sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+	```
+
+	Add the follow to file and fill in identity and password field save and restart RPI:
+	```
+	network={
+	ssid="myWi-Fi@Humber"
+	priority=999
+	proto=RSN
+	key_mgmt=WPA-EAP
+	pairwise=CCMP
+	auth_alg=OPEN
+	eap=PEAP
+	identity="STUDENT ID"
+	password="PASSWORD"
+	phase1="peaplabel=0"
+	phase2="auth=MSCHAPV2"
+	}
+	```
+	
 3.  Download Humber Certificate (For HumberSecure).cer from https://its.humber.ca/wireless/humbersecure/
 
 4.  Reboot
