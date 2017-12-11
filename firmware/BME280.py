@@ -48,11 +48,9 @@ def readYL40Analog(addr=YL40_DEVICE):
   return_list = []
   aout = 0
   for a in range(0,4):
-    bus.write_byte_data(YL40_DEVICE, 0x40+a, aout)
-    #bus.write_byte_data(YL40_DEVICE, 0x40, aout)
+    bus.write_byte_data(YL40_DEVICE, 0x40+a, aout)    
     read_value = bus.read_byte(YL40_DEVICE) # This is the data from A/D channel.
     read_value = bus.read_byte(YL40_DEVICE) # Read Twice to get the current data. 
-    print ("data ", read_value)
     return_list.append(read_value)
     aout = aout + 1
   return return_list
@@ -60,7 +58,7 @@ def readYL40Analog(addr=YL40_DEVICE):
 #The following code is for DA of YL-40 PCF8591 board. 
 #==========================================================================
 def writeYL40Digital(addr=YL40_DEVICE, digital_data=0): 
-    bus.write_byte_data(addr, 0x40, digital_data)  # Why 0x40???
+    bus.write_byte_data(addr, 0x41, digital_data)  # 0x41 is the D/A channel. 
     return
 
 #The foolowing code is for BME280 board. 
@@ -199,19 +197,21 @@ def main():
     print "BME280 Humidity : ", humidity, "%"
     print "______________________________________________________"
     analog = readYL40Analog()
-    print "A/D Channel 0 (Photocell)  : ", analog[0],  "Voltage: ", analog[0]*3.3/255.0
-    print "A/D Channel 1 (Temperature): ", analog[2],  "Voltage: ", analog[2]*3.3/255.0  # Swapped for some reasons.
-    print "A/D Channel 2 (AN2 Input)  : ", analog[1],  "Voltage: ", analog[1]*3.3/255.0
-    print "A/D Channel 3 (POT)        : ", analog[3],  "Voltage: ", analog[3]*3.3/255.0
+    print "A/D Channel 0 (Photocell)  : ", analog[0],  "Voltage: ", analog[0]*5.0/255.0, " V"
+    print "A/D Channel 1 (Temperature): ", analog[1],  "Voltage: ", analog[1]*5.0/255.0, " V"  
+    print "A/D Channel 2 (AN2 Input)  : ", analog[2],  "Voltage: ", analog[2]*5.0/255.0, " V"
+    print "A/D Channel 3 (POT)        : ", analog[3],  "Voltage: ", analog[3]*5.0/255.0, " V"
     print "______________________________________________________"
     analog[:] = []
-    print "______________________________________________________"
     for data in range(0, 256):
       writeYL40Digital(YL40_DEVICE,data)
       sleep(0.001)       # Generate a ramp on DA/Output. 
     count += 1
     sleep(1)
-    print 'Analog Signal Genearted from D/A Output'
+    writeYL40Digital(YL40_DEVICE,0)  #finally make D/A output a 0
+    print "______________________________________________________"
+    print 'Analog Signal Already Genearted from D/A Output'
+    print "______________________________________________________"
     if (count == 10):    # exit the program after 10 readings. 
      break;
 
