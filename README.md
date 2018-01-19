@@ -1,13 +1,24 @@
 # An interface board for the Broadcom development platform also known as the Raspberry Pi
 
 ## Table of Contents
-1. [Student Sense Hat Specifications](#student-sense-hat-specifications)
-2. [Student Sense Hat Electronic Design Files](#student-sense-hat-electronic-design-files)
-2. [Student Sense Hat Assembly](#student-sense-hat-assembly)
-3. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
-4. [Enterprise Wi-Fi](#enterprise-wi-fi)
+1. [Introduction](#introduction)
+2. [Student Sense Hat Specifications](#student-sense-hat-specifications)
+3. [Student Sense Hat Electronic Design Files](#student-sense-hat-electronic-design-files)
+4. [Student Sense Hat Assembly](#student-sense-hat-assembly)
+5. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
+6. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
 ![Image of Prototype](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/SSHrev05.jpg)
+
+### Introduction
+
+This stackable interface board for the Broadcom development platform also known as the Raspberry Pi is of a hand solderable 
+design meant to be compatible with the devices in the Humber Parts Crib which require more skills and techniques to assemble.
+It has a bidirectional LED and three I2C device sockets. The bidirectional LED allows the hardware equivalent of "Hello World"
+to be achieved by blinking the LED. I2C is a very common hardware peripheral bus and is designed to have an analog breakout
+board, a Real Time Clock module, and an integrated environmental sensor module connected. It takes most individuals about a
+week of effort to complete these build instructions directed towards technologically inclined students especially given other
+commitments. Be aware that the image creation steps take at least 3 hours alone.
 
 ### Student Sense Hat Specifications
 
