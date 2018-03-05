@@ -286,7 +286,6 @@ Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has 
 	update_config=1
 	country=CA
 
-
 	# sample network configuration for Humber College myWi-Fi
 	# change text in <> to your account values (remove the < and > while doing this )
 	network={
