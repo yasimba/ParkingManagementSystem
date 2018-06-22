@@ -22,32 +22,7 @@ void GhDisplayReadings(time_t *readt, double greads[SENSORS])
 	*readt = time(NULL);
 	printf("\n%s", ctime(readt));
 	//printf("Readings\tTemperature: %3.1lfC\tHumidity: %3.1lf%%\tLights: %3.01lflux\tPressure: %5.1lfmB", greads[TEMPERATURE], greads[HUMIDITY], greads[LIGHT], greads[PRESSURE]);
-	//printf("Readings\tTemperature: %3.1lfC\tLights: %3.01lflux", greads[TEMPERATURE], greads[LIGHT]);
-	double tempc=greads[TEMPERATURE];
-	double light=greads[LIGHT];
-	//printf("Readings\tTemperature: %3.1lfC\tLights: %3.01lflux\n", tempc, light);
-//345678911234567892123456789312345678941234567895123456789612345678971234567898	
-	char tempcbar[51];
-	tempcbar[50]='\0';
-	for (int numbar=49;numbar>=0;numbar--){
-		if ((tempc*5.0-18.0*5.0)>numbar){
-			tempcbar[numbar]='*';
-		}
-		else{
-			tempcbar[numbar]=' ';
-		}
-	}
-	char lightbar[51];
-	lightbar[50]='\0';
-	for (int numbar=49;numbar>=0;numbar--){
-		if ((light/5)>numbar)
-			lightbar[numbar]='*';
-		else
-			lightbar[numbar]=' ';
-	}
-	printf("Temperature: %5.1fC   %50s\n", tempc, tempcbar);
-	printf("Light:       %5.1flux %50s\n", light, lightbar);
-	printf("Readings\tHumidity: %3.1lf%%\tPressure: %5.1lfmB", greads[HUMIDITY], greads[PRESSURE]);
+	printf("Readings\tTemperature: %3.1lfC\tLights: %3.01lflux", greads[TEMPERATURE], greads[LIGHT]);
 }
 
 void GhDisplaySetpoints(void)

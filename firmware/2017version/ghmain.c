@@ -32,7 +32,7 @@ int main(void)
 	{
 		pinMode(HSH_PCF8591_PINBASE, OUTPUT);
 		analogWrite(HSH_PCF8591_PINBASE,0);
-		delay(500);
+		delay(1000);
 		analogWrite(HSH_PCF8591_PINBASE,127);
 		pinMode(HSH_PCF8591_PINBASE, INPUT);
 		
@@ -51,12 +51,12 @@ int main(void)
 		//arecord = GhSetAlarms(arecord,alimits,creadings);
 
 		sets = GhSetSetpoint();
-		//GhDisplaySetpoints();
+		GhDisplaySetpoints();
 
 		//GhSetControls(&tempc,&humidc,&lightc,creadings);
 		ctrl = GhSetControls(sets, creading_s);
 		//GhDisplayControls(&tempc,&humidc,&lightc);
-		//GhDisplayControls(&ctrl.heater,&ctrl.humidifier,&ctrl.light);
+		GhDisplayControls(&ctrl.heater,&ctrl.humidifier,&ctrl.light);
 
 		printf("Delaying %d seconds prior to repeating\n\n",UPDATE/1000);
 		//if(digitalRead (HSH_MCP23017_PINBASE+GHCOFF))

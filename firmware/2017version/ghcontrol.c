@@ -251,7 +251,7 @@ double GhGetTemperature(void)
         return GetRandom((UPPERATEMP - LOWERATEMP) + LOWERATEMP);
     #else
         //return GetBME280TempC();
-		return 230.0-analogRead(HSH_PCF8591_PINBASE+HSH_PCF8591_A1IN);
+		return analogRead(HSH_PCF8591_PINBASE+HSH_PCF8591_A1IN)-186.0;
     #endif
 
 }
