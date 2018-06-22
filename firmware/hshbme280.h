@@ -3,7 +3,7 @@
 #include <stdint.h>
 
 #define I2C_MODE 1
-#define I2CADDRESS 0x76
+#define I2CADDRESS 0x77
 #define CHIPSELECTPIN 10
 #define RMODE 3
 #define TOVRSAMP 1
