@@ -1,4 +1,8 @@
-  ## Week 5 Hardware (October 2nd )
+## Week 6 Reading week (October 9th )
+ 
+ * Reading week <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
+
+## Week 5 Hardware (October 2nd )
  
  * Proof of purchase <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
  
