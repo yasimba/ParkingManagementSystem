@@ -17,7 +17,7 @@
   <H3>Week 4 Hardware (September 25th )</H3>
   <p>
    <ul>
-    <li>Budget plan for project can be found here: <a href="https://github.com/davista123/ParkingManagementSystem/master/documentation/PartsForParkingManagementSystem.xlsx"/></li>	    
+    <li>Budget plan for project can be found here <a href="https://github.com/davista123/ParkingManagementSystem/master/documentation/PartsForParkingManagementSystem.xlsx"/></li>	    
    </ul>
   </p>
  </SECTION>
@@ -36,7 +36,7 @@
   <H3>Week 2 Hardware (September 11th )</H3>
   <p>
    <ul>
-    <li>Project Proposal for the Parking Management System can be found here: <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/ProposalContentDavidUcheRev02-converted.docx"/></li>	    
+    <li>Project Proposal for the Parking Management System can be found here<a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/ProposalContentDavidUcheRev02-converted.docx"/></li>	    
    </ul>
   </p>
  </SECTION>
