@@ -7,7 +7,7 @@
   <H3>Week 5 Hardware (October 2nd )</H3>
   <p>
    <ul>
-    <li>Proof of purchase can be found here: <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proofofpurchase.pdf"/></li>	    
+    <li>Proof of purchase can be found here <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proofofpurchase.pdf"/></li>	    
    </ul>
   </p>
  </SECTION>
