@@ -1,6 +1,6 @@
   ## Week 5 Hardware (October 2nd )
  
- * Proof of purchase <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proofofpurchase.pdf"/>
+ * Proof of purchase <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
  
  
  ## Week 4 Hardware (September 25th )
