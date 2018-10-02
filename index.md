@@ -17,7 +17,7 @@
  
  ## Week 2 Hardware (September 11th )
  
- * Project Proposal for the Parking Management System can be found here<a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/ProposalContentDavidUcheRev02-converted.docx"/>
+ * Project Proposal for the Parking Management System can be found here<a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/ProposalContentDavidUcheRev02-converted.docxx"/>
 
  
  ## Week 1 Capstone Project Overview (September 4)
