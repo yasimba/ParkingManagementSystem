@@ -1,3 +1,28 @@
+  ## Week 8 Hardware (October 23rd )
+ * Breadboarding milestone
+ * My breadboard prototype was designed this way:
+  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_design.PNG)
+  * When built using my parts, the final design looks like this:
+    ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_1.PNG)
+    ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_3.PNG)
+  * Placing pencil close to proximity sensor activates the PiCamera and the LED -->
+  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_2.PNG)
+  * Using the Pi to detect the i2c device brought up the following output
+  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/i2c_test.PNG)
+  * Initially, no output was shown, I resolved the issue by:
+  1. Soldering the headers tothe sensor
+  2. Grounding the breadboard
+  * As of this week, I am on schedule due to the following reasons:
+  - I am able to get reading from the sensor
+  - Objects close to the sensor are able to fire the remaining logic of the program and turn on the LED and switch on the PiCamera
+  - The PiCamera is able to take pictures, run the number plate detection api and log an output to the console
+ 
+ 
+ ## Week 7 Hardware (October 17th )
+ * Proof of parts acquisition was due today. I showed my purchases to the professor.
+ 
+ 
+
 ## Week 6 Reading week (October 9th )
  
  * Reading week <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
