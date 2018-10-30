@@ -1,5 +1,6 @@
   ## Week 8 Hardware (October 23rd )
  * Breadboarding milestone
+ * No additional finances were needed to fulfill this milestone
  * My breadboard prototype was designed this way:
   ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_design.PNG)
   * When built using my parts, the final design looks like this:
