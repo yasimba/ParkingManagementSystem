@@ -3,7 +3,7 @@
   * PCB Designed due today
   * No additional financial expenses were incurred
   * Sent gerber files to prototype lab
-  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/wiring_diagram_pcb.jpg)  
+  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/wiring_diagram_3_pcb.jpg)  
   
   
   ## Week 8 Hardware (October 23rd )
