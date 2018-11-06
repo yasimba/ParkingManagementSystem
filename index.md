@@ -1,4 +1,11 @@
- 
+ ## Week 10 Hardware(October 6th)
+ * I am currently behind schedule for the hardware project due to the fact that I was unable to retrieve my PCB from the parts crib.
+ * I have sent the gerber files again with my name on the board to make location easier. I will check in daily in person with the prototype lab in order to have the board etched and soldered by Friday in order to be able to get back on schedule.
+ * Financially, I have incurred an additional expense of $20 CAD for the order of sockets and connectors for the PCB. I am on track on that regard.
+ * In terms of general functionality, I am able eto retrieve readings from the sensor and the vision algorithms are able to detect number plates
+  
+  
+  
   ## Week 9 Hardware (October 30th )
   * PCB Designed due today
   * No additional financial expenses were incurred
@@ -33,7 +40,6 @@
  
 
 ## Week 6 Reading week (October 9th )
- 
  * Reading week <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
 
 ## Week 5 Hardware (October 2nd )
