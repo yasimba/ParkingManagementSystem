@@ -24,7 +24,7 @@
  * My breadboard prototype was designed this way:
   ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_design.PNG)
   * When built using my parts, the final design looks like this:
-    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_1.PNG)    
+    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_1.PNG)     
     ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_3.PNG)
   * Placing pencil close to proximity sensor activates the PiCamera and the LED -->
   ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_2.PNG)
