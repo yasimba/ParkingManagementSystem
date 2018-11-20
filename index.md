@@ -22,14 +22,14 @@
  * Breadboarding milestone
  * No additional finances were needed to fulfill this milestone
  * My breadboard prototype was designed this way:
-  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_design.PNG)
+  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_design.PNG)
   * When built using my parts, the final design looks like this:
-    ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_1.PNG)
-    ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_3.PNG)
+    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_1.PNG)
+    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_3.PNG)
   * Placing pencil close to proximity sensor activates the PiCamera and the LED -->
-  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_2.PNG)
+  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_2.PNG)
   * Using the Pi to detect the i2c device brought up the following output
-  ![alt text](https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/i2c_test.PNG)
+  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/i2c_test.PNG)
   * Initially, no output was shown, I resolved the issue by:
   1. Soldering the headers tothe sensor
   2. Grounding the breadboard
@@ -45,7 +45,7 @@
  
 
 ## Week 6 Reading week (October 9th )
- * Reading week <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
+ * Reading week <a href="https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
 
 ## Week 5 Hardware (October 2nd )
  
