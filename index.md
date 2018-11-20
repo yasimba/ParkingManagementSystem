@@ -49,12 +49,14 @@
 
 ## Week 5 Hardware (October 2nd )
  
- * Proof of purchase <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
+ * Proof of purchase 
+ <a href="https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/Proof%20of%20purchase.pdf"/>
  
  
  ## Week 4 Hardware (September 25th )
  
- * Budget Plan <a href="https://github.com/davista123/ParkingManagementSystem/master/documentation/PartsForParkingManagementSystem.xlsx"/>
+ * Budget Plan 
+ <a href="https://github.com/davista123/ParkingManagementSystem/master/documentation/PartsForParkingManagementSystem.xlsx"/>
  
  ## Week 3 Hardware (September 18th )
  * Project schedule for the Parking Management System
