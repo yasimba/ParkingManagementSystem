@@ -24,12 +24,12 @@
  * My breadboard prototype was designed this way:
   ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_design.PNG)
   * When built using my parts, the final design looks like this:
-    ![alt text]https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentationbreadboard_1.PNG)    
-    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_3.PNG)
+    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_1.PNG)    
+    ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_3.PNG)
   * Placing pencil close to proximity sensor activates the PiCamera and the LED -->
-  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/breadboard_2.PNG)
+  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/breadboard_2.PNG)
   * Using the Pi to detect the i2c device brought up the following output
-  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/blob/master/documentation/i2c_test.PNG)
+  ![alt text](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/i2c_test.PNG)
   * Initially, no output was shown, I resolved the issue by:
   1. Soldering the headers tothe sensor
   2. Grounding the breadboard
