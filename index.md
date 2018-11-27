@@ -1,4 +1,6 @@
 ## Week 13 (November 27th)
+* The presentation is due today. The link is below
+* https://github.com/davista123/ParkingManagementSystem/blob/master/documentation/PMS%20PRESENTATION%20(1).pdf
 
 
 ## Week 12 (November 20th)
