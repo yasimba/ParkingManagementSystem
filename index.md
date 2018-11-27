@@ -1,3 +1,10 @@
+## Week 13 (November 27th)
+
+
+## Week 12 (November 20th)
+* This week the enclosure was due
+
+
 ## Week 11 Hardware(November 13th)
 * I used my soldered board and connected it to the raspberrypi. I am still able to get sensor readings and can thus summarise that everything is still functioning well. 
 * My SD card and camera got spoilt and will therefore need to be replaced. I will order a new set of them adding about $20 to my project budget. In addition, I will have to rewrite the code to control both the camera and the LED. Main LED functionality will be obtained from the following URL: https://gpiozero.readthedocs.io/en/stable while I will use the python requests library to query the openalpr api with my credentials to perform number plate recognition.
