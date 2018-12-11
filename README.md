@@ -14,7 +14,8 @@
 ## Introduction
 ![System Diagram](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/sketch.png)
 
-## Bill of Materials
+
+## Bill_of_Materials
 
 
 | Parts for Parking Management System                          |               |        |               |                |                 |              |               |                                                                                                                 |          |   |
