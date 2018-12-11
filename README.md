@@ -74,21 +74,24 @@ Attached to the Pi, the final design should resemble this:
 ![](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/20181201_202234.jpg)
 ![](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/20181201_202301.jpg)
 
+Do note that 20*2 stackable headers  were used for mounting the PCB to the breadboard. I used a 6 pin stack for mounting the proximity sensor to the PCB board.
+
 ## Power Up
 By powering the Pi, this command should be used to make sure that i2c device has been detected:
-
 ![](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/i2c_test.PNG)
-
-
-Run the script in software(pms.py) to have a test run of the device in Action:
-![](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/Capture.PNG)
-
 
 ## Unit Testing
 
+To do UNIT testing, I tested to see whether I could get proximity readings. As shown in the production testing unit, these proximity readings were used to perform some simple calculations. 
 
 
 ## Production Testing
 
+Run the script in software(pms.py) to have a test run of the device in Action:
+![](https://raw.githubusercontent.com/davista123/ParkingManagementSystem/master/documentation/Capture.PNG)
+
+The test run successfully and was able to obtain proximity readings and mock a test payment process.
 
 ## Reproducability
+
+The project is reproducable by simply following the instructions laid out above. The toughest part is acquisition of the various parts. However, the project can be built completely in 5 hours if all the parts are present. In terms of feasability, the cost per device would amount to ~ $10 which could allow it to scale. In addition, the device could be modified to be powered by a solar panel or power bank and headless connectivity could be achieved by editing the wpa_config file in the root directory of the pi with required network settings so that each parking device can be accessed wirelessly over a WiFi network,
